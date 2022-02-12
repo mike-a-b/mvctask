@@ -1,0 +1,89 @@
+{% set title = 'Регистрация' %}
+<!--{% set username = currentuser.username %}-->
+{% extends 'layouts/auth.html' %}
+{% block content %}
+<div class="row h-100">
+    <div class="col-lg-5 col-12">
+        <div id="auth-left">
+            <div class="auth-logo">
+                <p class="auth-title" id="logo">НАЗВАНИЕ</p>
+<!--                <a href="/login"><img src="#" alt="Logo"></a>-->
+            </div>
+            <h1 class="auth-title">Регистрация</h1>
+            <p class="auth-subtitle">Введите данные для регистрации на сайте</p>
+            {% if message %}
+            <p class="auth-subtitle-error">{{ message }}</p>
+            {% else %}
+            <p class="auth-subtitle-error">Все поля должны быть заполнены</p>
+            {% endif %}
+            <form action="/registration" method="post" class="needs-validation was-validated" >
+                <div class="form-group position-relative has-icon-left mb-4" >
+                    {% if userr.email %}
+                    <input type="text" id= "email" name="email" class="form-control form-control-xl" placeholder="Почта" value={{ userr.email }}>
+                    {% else %}
+                    <input type="text" id= "email" name="email" class="form-control form-control-xl" placeholder="Почта" required>
+                    {% endif %}
+                    <div class="form-control-icon ">
+                        <i class="bi bi-envelope"></i>
+                    </div>
+                </div>
+                <div class="form-group position-relative has-icon-left mb-4">
+                    {% if userr.username %}
+                    <input type="text" id="username" name="username" class="form-control form-control-xl" placeholder="Имя пользователя"
+                            value={{ userr.username }} required>
+                    {% else %}
+                    <input type="text" id="username" name="username" class="form-control form-control-xl" placeholder="Имя пользователя"
+                            required>
+                    {% endif %}
+                    <div class="form-control-icon">
+                        <i class="bi bi-person"></i>
+                    </div>
+                </div>
+                <div class="form-group position-relative has-icon-left mb-4">
+
+                    <input type="password" name="password" id="password"  class="form-control form-control-xl" placeholder="Пароль" required>
+                    <div class="form-control-icon">
+                        <i class="bi bi-shield-lock"></i>
+                    </div>
+                </div>
+                <div class="form-group position-relative has-icon-left mb-4">
+                    <input type="password" name="password2" id="password2" class="form-control form-control-xl" placeholder="Подтвердить пароль" required>
+                    <div class="form-control-icon">
+                        <i class="bi bi-shield-lock"></i>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block btn-lg shadow-lg ">Зарегистрироваться</button>
+            </form>
+            <div class="text-center mt-5 text-lg fs-4">
+                <p class='text-gray-600'>Уже есть аккаунт? <a href="/login" class="font-bold">Войти на сайт</a>.</p>
+            </div>
+            <footer>
+
+                <div class="footer clearfix mb-0 text-muted">
+                    <div class="float-start" style="width:100%">
+                        <p style="text-align: center; margin:0; padding: 0;"> <span class="">КОМПАНИЯ</span></p>
+                        <p style="text-align: center">2020</p>
+                    </div>
+                    <div class="float-end" style="width:100%">
+                        <p style="text-align: center; margin:0; padding: 0;"> <span class="">Контакты</span></p>
+                        <ul style="list-style-type: none; list-style: none; text-align: center">
+                            <li>
+                                <a href="www.alphsens.com"></a>
+                            </li>
+                            <li>
+                                <a href="mailto:info@alphasens.com"></a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <div class="col-lg-7 d-none d-lg-block">
+        <div id="auth-right">
+
+        </div>
+    </div>
+</div>
+{% endblock %}

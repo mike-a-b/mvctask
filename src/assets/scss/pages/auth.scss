@@ -1,0 +1,142 @@
+body {
+    background-color: white;
+}
+#auth {
+    height: 100vh;
+    overflow-x: hidden;
+    
+    #auth-right {
+        height: 100%;
+        background:  url(../../images/bg/4853433.jpg),linear-gradient(90deg,#2d499d,#3f5491);
+    }
+    #auth-left {
+
+        padding: 5rem 8rem;
+        
+        .auth-title {
+
+            font-size: 4.2rem;
+            margin-bottom: 1rem;
+            font-weight: 1000;
+        }
+        .auth-subtitle {
+            font-size: 1.7rem;
+            line-height: 2.5rem;
+            color: #a8aebb;
+        }
+        .auth-subtitle-error {
+            font-size: 1.7rem;
+            line-height: 2.5rem;
+            color: #dc3545;
+        }
+        auth-subtitle-ok {
+            font-size: 1.7rem;
+            line-height: 2.5rem;
+            color: green;
+        }
+        .auth-logo {
+            #logo {
+                font-size: 5rem;
+                color: #551A8B;
+            }
+
+            margin-bottom: 7rem;
+            img {
+                height: 2rem;
+            }
+        }
+        .accounts a:hover{
+            background: darkgray;
+        }
+        #vkbutton {
+            display: inline-block;
+            width: 8.5rem;
+            height: 8.5rem;
+            border-radius: 8.5/2rem;
+            background-image: url("../../images/samples/vk.jpg");
+            background-position: -8.5rem 0px;
+        }
+        #facebookbutton {
+            display: inline-block;
+            width: 8.5rem;
+            height: 8.5rem;
+            border-radius: 8.5/2rem;
+            background-image: url("../../images/samples/vk.jpg");
+            background-position: -8.5*2rem 0px;
+        }
+        #instagrambutton {
+            display: inline-block;
+            width: 8.5rem;
+            height: 8.5rem;
+            border-radius: 8.5/2rem;
+            background-image: url("../../images/samples/vk.jpg");
+            background-position: -8.5*4.9rem 0px;
+        }
+        #goooglebutton {
+            display: inline-block;
+            width: 8.5rem;
+            height: 8.5rem;
+            border-radius: 8.5/2rem;
+            background-image: url("../../images/samples/vk.jpg");
+            background-position: -8.5*3.9rem 0px;
+        }
+        #youtubebutton {
+            display: inline-block;
+            width: 8.5rem;
+            height: 8.5rem;
+            border-radius: 8.5/2rem;
+            background-image: url("../../images/samples/vk.jpg");
+            background-position: -8.5*2.9rem 0px;
+        }
+        .captcha{
+            display: flex;
+            align-items: center;
+        }
+        #captchainput{
+            width:20%!important;
+            margin: 0 auto;
+        }
+        #captchabtn{
+            width:20%!important;
+            margin: 0 auto!important;
+        }
+        @media screen and (max-width: 767px) {
+            padding: 5rem ;
+        }
+        @media screen and (max-width: 576px) {
+            padding: 5rem 3rem;
+        }
+        @media screen and (max-width: 420px) {
+            #captchainput {
+                width: 80%!important;
+                margin: 0 auto!important;
+            }
+            #captchabtn {
+                width: 80%!important;
+                margin: 0 auto!important;
+            }
+            padding: 5rem 3rem;
+            .auth-logo {
+                #logo {
+                    font-size: 3.5rem;
+                    color: #551A8B;
+                }
+
+                margin-bottom: 6rem;
+                img {
+                    height: 1.8rem;
+                }
+            }
+            .auth-subtitle {
+                font-size: 1.4rem;
+                line-height: 2rem;
+                color: #a8aebb;
+            }
+            .auth-title {
+                font-size: 3rem;
+                margin-bottom: 1rem;
+                font-weight: 700;
+            }
+        }
+    }
+}

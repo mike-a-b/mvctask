@@ -1,0 +1,373 @@
+/*
+* Mazer, Technology Innovations Bootstrap HTML5 Landing Page
+* 
+* File: app.scss
+*
+* If you want to edit the components, just go to _variables.scss
+*/
+
+/**
+
+====== TABLE OF CONTENTS =======
+1. Bootstrap & Variables Inside
+2. Bootstrap Components Override 
+    2.1 Alert
+    2.2 Avatar
+    2.3 Badge
+    2.4 Buttons
+    2.5 Breadcrumb
+    2.6 Carousel
+    2.7 Card
+    2.8 Divider
+    2.9 Dropdowns
+    2.10 Forms
+    2.11 Modal
+    2.12 Sidebar
+    2.13 Navs
+    2.14 Navbar
+    2.15 Pagination
+    2.16 Table
+    2.17 Progress
+4. Pages
+    4.0 Layout
+    4.1 Auth
+    4.2 Error
+5. Utilities
+
+
+*/
+
+// 0. Mixins
+@import "./mixins/navbar";
+
+// 1. Bootstrap
+@import "./variables";
+
+// 2. Bootstrap Components Override
+
+// - 2.1. Alert
+@import "./components/alert";
+
+// - 2.2. Avatar
+@import "./components/avatar";
+
+// - 2.3. Badge
+@import "./components/badge";
+
+// - 2.4. Buttons
+@import "./components/buttons";
+
+// - 2.5. breadcrumb
+@import "./components/breadcrumb";
+
+// - 2.6. carousel
+@import "./components/carousel";
+
+// - 2.7. card
+@import "./components/card";
+
+// - 2.8. divider
+@import "./components/divider";
+
+// - 2.9. dropdowns
+@import "./components/dropdowns";
+
+// - 2.10. forms
+@import "./components/forms";
+
+// - 2.11. modal
+@import "./components/modal";
+
+// - 2.12. sidebar
+@import "./components/sidebar";
+
+// - 2.13. navs
+@import "./components/navs";
+
+// - 2.14. navbar
+@import "./components/navbar";
+
+// - 2.15. pagination
+@import "./components/pagination";
+
+// - 2.16. table
+@import "./components/table";
+
+// - 2.17. progress
+@import "./components/progress";
+
+// - 2.18. icons
+@import "./components/icons";
+
+// 4.0 Layout
+@import "./layouts/main.scss";
+@import "./utilities";
+
+.logo{
+  box-sizing: border-box;
+  p {
+    font-size: 3.2rem;
+    color: #551A8B;
+    font-weight: bold;
+  }
+}
+.card {
+  margin:0;
+}
+#exampleFormControlTextarea1{
+  box-shadow: 0 0 0 0.25rem rgba(67, 94, 190, 0.25);
+  background-color: #E6EAEE;
+  resize: none;
+  height: 23vh;
+  min-height: 23vh;
+  box-sizing: border-box;
+  padding-top: 36px;
+}
+#mainTAreaLabel {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #a8aebb;
+}
+#sendbtn {
+  &:hover{
+    color:#5A8DEE;
+  }
+  display: block;
+  position: relative;
+  left: 0;
+  top:2px;
+  border-radius: 5px;
+  width:20%;
+  height:2.5%;
+  padding: 0;
+  margin-left:0%;
+}
+#instr {
+  &:hover{
+    color:#5A8DEE;
+  }
+  display: block;
+  position: relative;
+  left: 0;
+  top:-32px;
+  border-radius: 5px;
+  width:20%;
+  height:2.5%;
+  padding: 0;
+  margin-left:80%;
+}
+#ogran {
+  &:hover{
+    color:#5A8DEE;
+  }
+  display: none;
+  position: relative;
+  left: 0;
+  top:-64px;
+  border-radius: 5px;
+  width:10%;
+  height:2.5%;
+  padding: 0;
+  margin-left:80%;
+}
+#reset {
+  &:hover{
+    color:#5A8DEE;
+  }
+  display: none;
+  position: relative;
+  left: 0;
+  top:-96px;
+  border-radius: 5px;
+  width:10%;
+  height:2.5%;
+  padding: 0;
+  margin-left:90%;
+}
+
+#app{
+  height:100vh;
+  background: #fff;
+}
+
+#main{
+  height:30vh;
+}
+.auth-subtitle {
+  font-size: 1.7rem;
+  line-height: 2.5rem;
+  color: #a8aebb;
+}
+
+#wrapper {
+  display: none;
+}
+
+/* Важная часть модальное окно*/
+.popup__bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0,0,0,0.5);
+  opacity: 0; // Скрываем фон и сам попап
+  pointer-events: none; // Запрещаем ему быть целью событий
+  transition: 0.5s all;
+}
+
+.popup__bg.active { // При добавлении класса 'active'
+  opacity: 1; // Показываем фон и попап
+  pointer-events: all; // Возвращаем события
+  transition: 0.5s all;
+}
+
+.popup {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0); // Центрируем и масштабируем в 0 само окно
+  background: #fff;
+  width: 400px;
+  padding: 25px;
+  transition: 0.5s all;
+}
+
+.popup.active { // При добавлении класса 'active'
+  transform: translate(-50%, -50%) scale(1); // Так же центрируем и плавно увеличиваем
+  transition: 0.5s all;
+}
+/* Конец важной части */
+/* Далее код для стилизации формы */
+.close-popup {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.popup label {
+  width: 100%;
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.popup .label__text {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #cfd0d3;
+  margin-bottom: 5px;
+}
+
+.popup input {
+  height: 45px;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #cfd0d3;
+}
+
+.popup input:focus {
+  border-bottom: 1px solid #2982ff;
+}
+
+.popup input:focus + .label__text {
+  color: #2982ff;
+}
+
+.popup textarea {
+  resize: none;
+  width: 100%;
+  height: 150px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #cfd0d3;
+  font-size: 18px;
+  padding-top: 5px;
+}
+
+.popup textarea:focus {
+  border-bottom: 1px solid #2982ff;
+}
+
+.popup textarea:focus + .label__text {
+  color: #2982ff;
+}
+
+.popup button {
+  width: 100%;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 18px;
+  border: 2px solid #2982ff;
+  background: #2982ff;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: 0.5s all;
+}
+
+.popup button:hover {
+  background: #fff;
+  color:#2982ff;
+  transition: 0.5s all;
+}
+
+@media screen and (max-width: 1199px) {
+
+/*  #ogran {
+    display: none;
+    visibility: hidden;
+    .hdn{
+      visibility: hidden!important;
+      display: none!important;
+    }
+  }*/
+/*  #instr {
+    display: none;
+    visibility: hidden;
+
+    .hdn{
+      visibility: hidden!important;
+      display: none!important;
+    }
+  }*/
+/*  #reset {
+    display: none;
+    visibility: hidden;
+    .hdn{
+      visibility: hidden!important;
+      display: none!important;
+    }
+  }*/
+}
+.activ {
+  display: block!important;
+  visibility: visible!important;
+}
+@media screen and (max-width: 420px) {
+  #mainTitle{
+    margin-top: 142px;
+  }
+  #instrSpan{
+    visibility: hidden;
+  }
+  /*#ogranSpan{
+    visibility: hidden;
+  }
+  #resetSpan{
+    visibility: hidden;
+  }*/
+  .page-content{
+    margin-right:0;
+  }
+}
+
+//.hdn{
+//  visibility: hidden!important;
+//  display: none!important;
+//}

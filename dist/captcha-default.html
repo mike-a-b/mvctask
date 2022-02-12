@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout Default - Бочаров М. dashboard</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/vendors/bootstrap-icons/bootstrap-icons.css">
+    <link rel="stylesheet" href="assets/css/app.css">
+    <link rel="stylesheet" href="assets/css/pages/auth.css">
+</head>
+
+<body>
+    <div id="auth">
+        
+<div class="auth">
+    <div class="auth-left">
+        <div class="auth-title">
+            <h4 class="card-title" style="text-align: center">Вы не робот?</h4>
+        </div>
+
+        <div class="captcha">
+            <div class="row">
+                    <div class="col-md-12">
+                        <form action="/cap" method="post">
+                        <div class="form-group" style="margin:0 auto; width:100%;">
+                            <img style="display:block; text-align: center; margin: 0 auto;" width="" height="" src="" id="basicInput2" />
+                        </div>
+                        <div class="form-group" style="width: 100%; ">
+                            
+                            <label style="text-align: center;display: block;" for="">Введите символы с изображения</label>
+                            
+
+                            <input style="width:20%; margin:auto;" name="inputvalue" type="text" class="form-control" id="captchainput" placeholder="символы на изображении">
+                            <input style="text-align: center" name="captchavalue" type="hidden" class="form-control" id="" value="">
+                            <button style="text-align: center; display: block; margin: 0 auto; width: 20%;" type="submit" class="btn btn-primary btn-block btn-lg shadow-lg" id="captchabtn">Подтвердить</button>
+                        </div>
+                        </form>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    </div>
+<script src="assets/js/validate.js"></script>
+</body>
+
+</html>

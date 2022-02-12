@@ -1,0 +1,17 @@
+{
+  "mail": {
+    "subject": "Восстановление пароля с сайта ",
+    "smtp": {
+      "host": "smtp.gmail.com",
+      "port": 465,
+      "secure": true,
+      "auth": {
+        "user": "mikebocharov63@gmail.com",
+        "pass": "m1k31tm1k31t"
+      }
+    }
+  },
+  "Authorization": true,
+  "Captcha": true,
+  "AdminsID": "1"
+}
