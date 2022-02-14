@@ -17,6 +17,9 @@ module.exports = (sequelize, DataTypes) => {
             set: function (val) {
                 this.setDataValue('password', val)
             },
+        },
+        vkid : {
+            type: DataTypes.STRING
         }
     }, {});
     // для тестирования коннекта и создания модели

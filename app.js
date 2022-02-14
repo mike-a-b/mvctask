@@ -6,6 +6,7 @@ const app = express()
 // const server = http.createServer(app)
 const router = express.Router()
 const User = require('./db').models.user;
+const Proxy = require('./db').models.proxy;
 const helper = require('./helper/serialize')
 const passport = require('passport')
 const tokens = require('./auth/tokens')
@@ -17,6 +18,8 @@ const cookieParser = require('cookie-parser')
 const VKontakteStrategy = require('passport-vkontakte').Strategy;
 const config = require('./mailconfig.json')
 var captcha = require("nodejs-captcha");
+const adminRouter = require('./routes/admin.js');
+
 let globValidateMsg = "";
 let userr;
 passport.use(new VKontakteStrategy({
@@ -39,7 +42,7 @@ app.use(
         cookie: {
             path: '/',
             httpOnly: true,
-            maxAge: 10 * 60 * 1000
+            maxAge: 10 * 60 * 10000
         },
         saveUninitialized: true,
         resave: false
@@ -51,7 +54,7 @@ app.use(express.urlencoded({ extended: false }))
 
 app.use(express.static(path.join(process.cwd(), 'dist')))
 app.use(express.static(path.join(process.cwd(), 'src')))
-
+app.use('/admin', adminRouter);
 // require('./db/index')
 require('./auth/passport')
 
@@ -120,6 +123,7 @@ app.get('/auth/vkontakte/callback',
         session: false
     }),
     function(req, res) {
+
         req.session.isAuth = true;
         //зарегались через ВК
         res.redirect('/main')
@@ -393,10 +397,7 @@ app.post('/forgotpassword', async (req, res, next) => {
 })
 /****админка***/
 app.get('/admin',  async (req, res, next) => {
-    if(req.session.isAuth)
-        res.render('admin')
-    else
-        res.redirect('/login')
+
 })
 
 module.exports = app;

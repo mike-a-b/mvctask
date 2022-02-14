@@ -1,27 +1,31 @@
 'use strict';
-const {
-  Model
-} = require('sequelize');
 module.exports = (sequelize, DataTypes) => {
-  class Proxy extends Model {
-    /**
-     * Helper method for defining associations.
-     * This method is not a part of Sequelize lifecycle.
-     * The `models/index` file will call this method automatically.
-     */
-    static associate(models) {
-      // define association here
+  const Proxy = sequelize.define('Proxy', {
+    port: {
+      type: DataTypes.INTEGER
+    },
+    ip: {
+      type: DataTypes.STRING
+    },
+    type: {
+      type: DataTypes.STRING
+    },
+    special: {
+      type: DataTypes.STRING
+    },
+    status: {
+      type: DataTypes.BOOLEAN
     }
+  }, {});
+  Proxy.createProxy = async (port, ip) => {
+    const newP = await Proxy.create({port:port, ip:ip, type:'', special:'', status:false})
+    return newP;
+  }
+  Proxy.getAll = async () => {
+    const newP = await Proxy.findAll
+  }
+  Proxy.associate = function(models) {
+    // associations can be defined here
   };
-  Proxy.init({
-    port: DataTypes.INTEGER,
-    ip: DataTypes.STRING,
-    type: DataTypes.STRING,
-    special: DataTypes.STRING,
-    status: DataTypes.BOOLEAN
-  }, {
-    sequelize,
-    modelName: 'Proxy',
-  });
   return Proxy;
 };

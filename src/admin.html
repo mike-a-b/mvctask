@@ -27,7 +27,7 @@
             <div class="sidebar-header">
                 <div class="d-flex justify-content-between">
                     <div class="logo">
-                        <a href="index.html"><img src="№" alt="Logo" srcset=""></a>
+                        <a href="/login"><img src="#" alt="Logo" srcset=""></a>
                     </div>
                     <div class="toggler">
                         <a href="#" class="sidebar-hide d-xl-none d-block"><i class="bi bi-x bi-middle"></i></a>
@@ -124,7 +124,7 @@
                     <div class="col-12 col-md-6 order-md-2 order-first">
                         <nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
                             <ol class="breadcrumb">
-                                <li class="breadcrumb-item"><a href="index.html">Админ-панель</a></li>
+                                <li class="breadcrumb-item"><a href="/admin">Админ-панель</a></li>
                                 <li class="breadcrumb-item active" aria-current="page">Загрузка прокси / ботов вк</li>
                             </ol>
                         </nav>
@@ -140,12 +140,13 @@
                             </div>
                             <div class="card-content">
                                 <div class="card-body">
-                                    <form action="/admin" method="post">
+                                    <form action="/admin/proxy" method="post" enctype="multipart/form-data">
                                         <p class="card-text">Нажмите или перетащите текстовый файл в область чтобы валидировать и загрузить файл
                                         </p>
                                         <label for="formFile" class="form-label">Выберите файл с прокси серверами сервер:порт</label>
-                                        <input class="form-control" type="file" id="formFile">
+                                        <input class="form-control" type="file" id="formFile" name="proxyfile" accept="text/plain">
                                         <button type="submit" class="btn btn-primary me-1 mb-1">Загрузить</button>
+                                        <p class="card-text">{{ msg }}</p>
                                     </form>
                                 </div>
                             </div>
@@ -158,12 +159,13 @@
                             </div>
                             <div class="card-content">
                                 <div class="card-body">
-                                    <form action="/admin" method="post">
-                                        <p class="card-text">Нажмите или перетащите текстовый файл с ботами ВК чтобы валидировать и загрузить файл в базу
+                                    <form action="/admin/bots" method="post" enctype="multipart/form-data">
+                                        <p class="card-text">Нажмите чтобы валидировать файл с ботами ВК и загрузить файл в базу
                                         </p>
-                                            <label for="formFile" class="form-label">Выберите текстовый файл с ботами вк логин:пароль</label>
-                                            <input class="form-control" type="file" id="formFile">
+                                            <label for="formFile1" class="form-label">Выберите текстовый файл с ботами вк логин:пароль</label>
+                                            <input class="form-control" type="file" id="formFile1" name="botsfile" accept="text/plain">
                                             <button type="submit" class="btn btn-primary me-1 mb-1">Загрузить</button>
+                                        <p class="card-text">{{ msg2 }}</p>
                                     </form>
                                 </div>
                             </div>
@@ -177,6 +179,15 @@
                             <div class="card-content">
                                 <div class="card-body">
                                     <p class="card-text">
+                                        В базе находится {{ req.flash('proxycount')[0] }} прокси серверов:
+                                    </p>                                    <p class="card-text">
+                                        Рабочие: {{ req.flash('proxywork')[0] }}
+                                    </p><p class="card-text">
+                                        из них socks5 типа: {{ req.flash('proxysocks5')[0] }}
+                                    </p><p class="card-text">
+                                        из них socks4 типа: {{ req.flash('proxysocks4')[0] }}
+                                    </p><p class="card-text">
+                                        из них https типа: {{ req.flash('proxyhttps')[0] }}
                                     </p>
                                 </div>
                             </div>
