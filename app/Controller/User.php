@@ -3,6 +3,8 @@ namespace App\Controller;
 
 class User
 {
+    private $first;
+
     function indexAction()
     {
         echo __METHOD__;

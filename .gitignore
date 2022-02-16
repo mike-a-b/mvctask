@@ -1,10 +1,2 @@
-node_modules
-npm-debug.log
-.DS-Store
 .idea
-.git
-.vscode
-html
-test.loc
-vendor
-app
+
