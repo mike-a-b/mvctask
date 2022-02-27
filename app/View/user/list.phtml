@@ -1,0 +1,21 @@
+<?php
+/** @var \App\Model\User[] $user */
+$users = $this->users;
+?>
+
+<html>
+<head></head>
+<body>
+<h3><?=$this->title;?></h3>
+
+<? if($users): ?>
+    <? foreach ($users as $user): ?>
+        Пользователь ID: <?=$user->getId();?> с именем <?=$user->getName();?><br>
+    <? endforeach; ?>
+<? else:?>
+    Пользоватей нет
+<? endif; ?>
+
+</body>
+</head>
+</html>

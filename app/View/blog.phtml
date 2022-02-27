@@ -1,0 +1,44 @@
+<style>
+    .message { margin: 5px 0 0 5px; border: 1px solid grey; width: 450px; min-height: 100px;}
+    .author { margin-left: 10px; }
+    .text { padding-left: 15px; padding-top: 15px; }
+    .date {color: grey; font-size: 11px;}
+    .admin a { color: #46468b; float: right; padding-right: 15px; }
+</style>
+
+Список сообщений: <br>
+<?php
+/** @var $message \App\Model\Message */
+/** @var $user \App\Model\User */
+$user = $this->user;
+?>
+<?php if($messages = $this->messages): ?>
+    <?php foreach ($messages as $message): ?>
+        <div class="message">
+            <? if($user->isAdmin()): ?>
+            <div class="admin">
+                <a href="/admin/deleteMessage/?id=<?=$message->getId();?>">delete</a>
+            </div>
+            <? endif; ?>
+            <span class="date"><?=$message->getCreatedAt();?> </span>
+            <? if($author = $message->getAuthor()):?>
+                <span class="author"><?=htmlspecialchars($author->getName());?></span>
+            <? else: ?>
+                <span class="author">Сообщение от удаленного пользователя</span>
+            <? endif; ?>
+            <div class="text"><?=htmlspecialchars(nl2br($message->getText()));?></div>
+            <? if($message->getImage()):?>
+                <div><img src="/images/<?=$message->getImage();?>" style="width: 150px;"></div>
+            <? endif;?>
+        </div>
+    <?php endforeach; ?>
+<?php else: ?>
+    Сообщений пока нет
+<?php endif; ?>
+
+Добавить сообщение
+<form enctype="multipart/form-data" action="/blog/addMessage" method="post">
+    <textarea style="width: 250px; height: 150px;" type="text" value="" name="text"></textarea><br><br>
+    Изображение: <input type="file" name="image"><br>
+    <input type="submit" value="Отправить">
+</form>

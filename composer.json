@@ -1,16 +1,8 @@
 {
-    "name": "acidburn/html",
-    "autoload": {
-        "psr-4": {
-            "App\\": "app/",
-            "Core\\" : "src/"
-        }
-    },
-    "authors": [
-        {
-            "name": "mike-a-b",
-            "email": "mike.b.89@mail.ru"
-        }
-    ],
-    "require": {}
+  "autoload": {
+    "psr-4": {"App\\": "app/", "Base\\": "base/"}
+  },
+  "require": {
+    "twig/twig": "^3.0"
+  }
 }

@@ -1,0 +1,19 @@
+<?php
+/** @var \App\Model\User $user */
+$user = $this->user;
+?>
+
+<html>
+<head></head>
+<body>
+<h3><?=$this->title;?></h3>
+
+<? if($user): ?>
+    Пользователь ID: <?=$user->getId();?> с именем <?=$user->getName();?>
+<? else:?>
+    Пользователь не найден
+<? endif; ?>
+
+</body>
+</head>
+</html>

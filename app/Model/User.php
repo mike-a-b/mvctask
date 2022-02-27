@@ -90,6 +90,7 @@ class User
     public static function getById(int $id): ?self
     {
         $db = Db::getInstance();
+        if(!isset($db)) echo "ERROR CONNECTION ";
         $data = $db->fetchOne("SELECT * fROM users WHERE id = :id", __METHOD__, [':id' => $id]);
         if (!$data) {
             return null;

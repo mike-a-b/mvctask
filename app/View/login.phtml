@@ -34,7 +34,7 @@
 
             </div>
     <? else: ?>
-        Вы вошли как <?=$user->getName();?>
+        Вы вошли как <? if (isset($user)) echo $user->getName(); ?>
     <? endif; ?>
 
     </body>
