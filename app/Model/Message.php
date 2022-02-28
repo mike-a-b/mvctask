@@ -17,7 +17,7 @@ class Message
     {
         $this->text = $data['text'];
         $this->createdAt = $data['created_at'];
-        $this->authorId = $data['author_id'];
+        $this->authorId = $data['owner_id'];
         $this->image = $data['image'] ?? '';
     }
 
@@ -35,24 +35,25 @@ class Message
             'INSERT INTO messages (
                     text, 
                     created_at,
-                    author_id,
+                    owner_id,
                     image
                     ) VALUES (
                     :text, 
                     :created_at,
-                    :author_id,
+                    :owner_id,
                     :image
                 )',
             __FILE__,
             [
                 ':text' => $this->text,
                 ':created_at' => $this->createdAt,
-                ':author_id' => $this->authorId,
+                ':owner_id' => $this->authorId,
                 ':image' => $this->image,
             ]
         );
-
+//        echo $res;
         return $res;
+
     }
 
     public static function getList(int $limit = 10, int $offset = 0): array
@@ -80,7 +81,7 @@ class Message
     {
         $db = Db::getInstance();
         $data = $db->fetchAll(
-            "SELECT * fROM messages WHERE author_id = $userId LIMIT $limit",
+            "SELECT * fROM messages WHERE owner_id = $userId LIMIT $limit",
             __METHOD__
         );
         if (!$data) {
@@ -170,7 +171,7 @@ class Message
     {
         return [
             'id' => $this->id,
-            'author_id' => $this->authorId,
+            'owner_id' => $this->authorId,
             'text' => $this->text,
             'created_at' => $this->createdAt,
             'image' => $this->image

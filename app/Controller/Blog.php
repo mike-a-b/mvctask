@@ -42,7 +42,7 @@ class Blog extends AbstractController
 
         $message = new Message([
             'text' => $text,
-            'author_id' => $this->getUserId(),
+            'owner_id' => $this->getUserId(),
             'created_at' => date('Y-m-d H:i:s')
         ]);
 
