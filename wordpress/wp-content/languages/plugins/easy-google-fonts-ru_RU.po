@@ -1,0 +1,303 @@
+# Translation of Plugins - Easy Google Fonts - Development (trunk) in Russian
+# This file is distributed under the same license as the Plugins - Easy Google Fonts - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-01-19 12:45:38+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - Easy Google Fonts - Development (trunk)\n"
+
+#: src/includes/deprecated.php:87
+msgid "You are customizing"
+msgstr "Вы выполняете настройку"
+
+#: src/includes/data.php:121 src/includes/data.php:147
+msgid "The unit type used for the minimum screen size."
+msgstr "Тип устройства, используемый для мин. размера экрана."
+
+#: src/includes/data.php:108 src/includes/data.php:134
+msgid "The minimum screen size media query amount (without units)."
+msgstr "Мин. размер медиа-запроса размера экрана (без единиц измерения)."
+
+#: src/includes/data.php:95
+msgid "Description of the font control, displayed in the customizer."
+msgstr "Описание элемента управления шрифтом, отображаемого в настройщике."
+
+#: src/includes/data.php:76
+msgid "All of the CSS selectors that this font control's styles should be applied to."
+msgstr "Все селекторы CSS, к которым должны применяться стили этого элемента управления шрифтом."
+
+#: src/includes/data.php:63
+msgid "If enabled each style will have the !important CSS rule applied to it."
+msgstr "Если этот параметр включен, к каждому стилю будет применено правило CSS !important."
+
+#: src/includes/data.php:28 src/dist/admin.js:1
+#: src/scripts/admin/views/components/Nav.js:18
+msgid "Font Controls"
+msgstr "Элементы управления шрифтом"
+
+#. translators: &#9656; is the unicode right-pointing triangle, and %s is the
+#. panel title in the Customizer
+#: src/includes/customizer.php:288
+msgid "Customizing &#9656; %s"
+msgstr "Настройка &#9656; %s"
+
+#: src/includes/customizer.php:286
+msgid "Customizing"
+msgstr "Настройка"
+
+#: src/includes/customizer.php:269
+msgid "Any font controls that you have created for your theme will appear below. You can create additional font controls for your theme on the admin settings screen."
+msgstr "Все элементы управления шрифтами, которые вы создали для своей темы, появятся ниже. Вы можете создать дополнительные элементы управления шрифтами для своей темы на экране настроек администратора."
+
+#: src/includes/customizer.php:261
+msgid "Your theme has typography support. You can create additional customizer font controls on the admin settings screen."
+msgstr "Ваша тема поддерживает настройки типографики. Вы можете создать дополнительные элементы управления шрифтом-настройщиком на экране настроек администратора."
+
+#: src/includes/customizer.php:131
+msgid "All Languages"
+msgstr "Все языки"
+
+#: src/includes/customizer.php:125 src/dist/customizer.js:1
+msgid "Close"
+msgstr "Закрыть"
+
+#: src/includes/admin.php:197
+msgid "Support Forums"
+msgstr "Форумы поддержки"
+
+#: src/includes/admin.php:196
+msgid "About Titanium Themes"
+msgstr "О компании Titanium Themes"
+
+#: src/includes/admin.php:195
+msgid "About Easy Google Fonts"
+msgstr "О плагине Easy Google Fonts"
+
+#: src/includes/admin.php:50
+msgctxt "The text to be used for the menu."
+msgid "Easy Google Fonts"
+msgstr "Easy Google Fonts"
+
+#: src/includes/admin.php:49
+msgctxt "The text to be displayed in the title tags of the page when the menu is selected."
+msgid "Easy Google Fonts"
+msgstr "Easy Google Fonts"
+
+#. translators: file_not_found plugin error with file path.
+#: easy-google-fonts.php:89
+msgid "Could not locate the plugin file: %s"
+msgstr "Не удалось обнаружить файл плагина: %s"
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/easy-google-fonts/"
+msgstr "https://wordpress.org/plugins/easy-google-fonts/"
+
+#. Author URI of the plugin
+msgid "https://titaniumthemes.com"
+msgstr "https://titaniumthemes.com"
+
+#. Author of the plugin
+msgid "Titanium Themes"
+msgstr "Titanium Themes"
+
+#. Description of the plugin
+msgid "A simple and easy way to add google fonts to your WordPress theme."
+msgstr "Простой и удобный способ добавить шрифты google в вашу тему WordPress."
+
+#: src/includes/customizer.php:126 src/dist/admin.js:1 src/dist/customizer.js:1
+#: src/scripts/admin/views/pages/CreateFontControl.js:291
+#: src/scripts/admin/views/pages/CreateFontControl.js:339
+#: src/scripts/customizer/controls/position/BorderControl.js:191
+#: src/scripts/customizer/controls/position/BorderControl.js:237
+#: src/scripts/customizer/controls/position/BorderControl.js:288
+#: src/scripts/customizer/controls/position/BorderControl.js:334
+#: src/scripts/customizer/controls/position/BorderRadiusControl.js:173
+#: src/scripts/customizer/controls/position/BorderRadiusControl.js:205
+#: src/scripts/customizer/controls/position/BorderRadiusControl.js:237
+#: src/scripts/customizer/controls/position/BorderRadiusControl.js:269
+#: src/scripts/customizer/controls/position/MarginControl.js:170
+#: src/scripts/customizer/controls/position/MarginControl.js:202
+#: src/scripts/customizer/controls/position/MarginControl.js:234
+#: src/scripts/customizer/controls/position/MarginControl.js:266
+#: src/scripts/customizer/controls/position/PaddingControl.js:170
+#: src/scripts/customizer/controls/position/PaddingControl.js:202
+#: src/scripts/customizer/controls/position/PaddingControl.js:234
+#: src/scripts/customizer/controls/position/PaddingControl.js:266
+#: src/scripts/customizer/controls/style/BackgroundColorControl.js:22
+#: src/scripts/customizer/controls/style/FontColorControl.js:22
+#: src/scripts/customizer/controls/style/FontSizeControl.js:76
+#: src/scripts/customizer/controls/style/LetterSpacingControl.js:76
+#: src/scripts/customizer/controls/style/LineHeightControl.js:49
+msgid "Reset"
+msgstr "Сброс"
+
+#: src/includes/customizer.php:127 src/dist/customizer.js:1
+#: src/scripts/customizer/controls/font/FontWeightControl.js:15
+#: src/scripts/customizer/controls/font/TextDecorationControl.js:13
+#: src/scripts/customizer/controls/font/TextTransformControl.js:13
+#: src/scripts/customizer/controls/position/BorderControl.js:172
+#: src/scripts/customizer/controls/position/DisplayControl.js:15
+msgid "Theme Default"
+msgstr "Тема по умолчанию"
+
+#: src/includes/settings.php:76
+msgid "Please select a font for the theme's heading 6 styles."
+msgstr "Выберите шрифт для стилей заголовка темы 6."
+
+#: src/includes/settings.php:75
+msgid "Heading 6"
+msgstr "Заголовок 6"
+
+#: src/includes/settings.php:70
+msgid "Please select a font for the theme's heading 5 styles."
+msgstr "Выберите шрифт для стилей заголовка темы 5."
+
+#: src/includes/settings.php:69
+msgid "Heading 5"
+msgstr "Заголовок 5"
+
+#: src/includes/settings.php:64
+msgid "Please select a font for the theme's heading 4 styles."
+msgstr "Выберите шрифт для стилей заголовка темы 4."
+
+#: src/includes/settings.php:63
+msgid "Heading 4"
+msgstr "Заголовок 4"
+
+#: src/includes/settings.php:58
+msgid "Please select a font for the theme's heading 3 styles."
+msgstr "Выберите шрифт для стилей заголовка темы 3."
+
+#: src/includes/settings.php:57
+msgid "Heading 3"
+msgstr "Заголовок 3"
+
+#: src/includes/settings.php:52
+msgid "Please select a font for the theme's heading 2 styles."
+msgstr "Выберите шрифт для стилей заголовка темы 2."
+
+#: src/includes/settings.php:51
+msgid "Heading 2"
+msgstr "Заголовок 2"
+
+#: src/includes/settings.php:46
+msgid "Please select a font for the theme's heading 1 styles."
+msgstr "Выберите шрифт для стилей заголовка темы 1."
+
+#: src/includes/settings.php:45
+msgid "Heading 1"
+msgstr "Заголовок 1"
+
+#: src/includes/settings.php:40
+msgid "Please select a font for the theme's body and paragraph text."
+msgstr "Выберите шрифт для текста основной части темы и абзаца."
+
+#: src/includes/settings.php:39
+msgid "Paragraphs"
+msgstr "Параграфы"
+
+#: src/includes/customizer.php:235
+msgid "Typography"
+msgstr "Типографика"
+
+#: src/includes/customizer.php:268
+msgid "Theme Typography"
+msgstr "Типография темы"
+
+#: src/includes/customizer.php:238
+msgid "Your theme has typography support. You can create custom font controls on the google fonts screen in the settings section."
+msgstr "Ваша тема поддерживает настройки типографики. Вы можете создавать пользовательские элементы управления шрифтами на экране google fonts в разделе Настройки."
+
+#: src/includes/customizer.php:260
+msgid "Default Typography"
+msgstr "Типографика по умолчанию"
+
+#: src/includes/data.php:29 src/includes/settings.php:155 src/dist/admin.js:1
+#: src/scripts/admin/views/pages/ManageFontControls.js:98
+msgid "Font Control"
+msgstr "Элемент управления шрифтом"
+
+#: src/includes/admin.php:194
+msgid "For more information:"
+msgstr "Для дополнительной информации:"
+
+#: src/includes/admin.php:188
+msgid "Google API Key Instructions"
+msgstr "Инструкции по ключу API Google"
+
+#: src/includes/admin.php:249
+msgid "Once you have entered a valid Google API key this plugin will automatically update itself with the latest fonts from google."
+msgstr "После того, как вы ввели действительный ключ API Google, этот плагин автоматически обновится с использованием новейших шрифтов от Google."
+
+#: src/includes/admin.php:246
+msgid "Once you have an API key, you can enter it in the Google Fonts API Key text field on the \"Advanced\" settings page."
+msgstr "Получив ключ API, вы можете ввести его в текстовое поле Google Fonts API Key на странице настроек \"Advanced\"."
+
+#: src/includes/admin.php:245
+msgid "Create a new browser key and <strong>leave the referrer box empty</strong>."
+msgstr "Создайте новый ключ браузера и <strong>оставьте поле referrer пустым</strong>."
+
+#: src/includes/admin.php:244
+msgid "Select Credentials under the APIs & auth menu."
+msgstr "Выберите Credentials в меню APIs & auth."
+
+#: src/includes/admin.php:243
+msgid "Turn on Web Fonts Developer API."
+msgstr "Включите API разработчика веб-шрифтов."
+
+#: src/includes/admin.php:242
+msgid "Select APIs Under the APIs & auth menu."
+msgstr "Выберите API в меню API & auth."
+
+#: src/includes/admin.php:241
+msgid "Create a new project."
+msgstr "Создать новый проект."
+
+#: src/includes/admin.php:240
+msgid "Visit the <a href=\"https://code.google.com/apis/console\" target=\"_blank\">Google APIs Console</a>."
+msgstr "Посетите <a href=\"https://code.google.com/apis/console\" target=\"_blank\">Google APIs Console</a>."
+
+#: src/includes/admin.php:237
+msgid "How to get your Google API Key:"
+msgstr "Как получить ключ API Google:"
+
+#: src/includes/admin.php:180
+msgid "Overview"
+msgstr "Обзор"
+
+#: src/includes/admin.php:222
+msgid "customizer"
+msgstr "настройщик"
+
+#: src/includes/admin.php:221
+msgid "This screen is used to manage/create new font controls. To preview fonts for each control please visit the typography section in the "
+msgstr "Этот экран используется для управления/создания новых элементов управления шрифтами. Для предварительного просмотра шрифтов для каждого элемента управления посетите раздел типографики в разделе "
+
+#: src/includes/admin.php:220
+msgid "Please Note: "
+msgstr "Обратите внимание: "
+
+#: src/includes/admin.php:219
+msgid "Add a Google API key in order to enable automatic font updates."
+msgstr "Добавьте ключ Google API, чтобы включить автоматическое обновление шрифтов."
+
+#: src/includes/admin.php:218
+msgid "Manage all of your custom font controls."
+msgstr "Управление всеми пользовательскими элементами управления шрифтами."
+
+#: src/includes/admin.php:217
+msgid "Create, edit, and delete custom font controls."
+msgstr "Создание, редактирование и удаление пользовательских элементов управления шрифтами."
+
+#: src/includes/admin.php:216
+msgid "From this screen you can:"
+msgstr "На этом экране вы можете:"
+
+#: src/includes/admin.php:215
+msgid "This screen is used for managing your custom font controls. It provides a way to create a custom font controls for any type of content in your theme."
+msgstr "Этот экран используется для управления пользовательскими элементами управления шрифтами. Он позволяет создавать пользовательские элементы управления шрифтами для любого типа содержимого в вашей теме."

@@ -1,0 +1,56 @@
+.digits-popup-close-button {
+    position: absolute;
+    top: 0;
+    right: 8px;
+    cursor: pointer;
+    z-index: 99;
+}
+
+.digits-popup-container-child {
+    background-color: #FFFFFF;
+    overflow: auto;
+}
+
+.digits-builder .digits-form-popup-box {
+    height: 100%;
+}
+
+.digits-form-popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 99998;
+}
+
+.digits-popup-container-background, .digits-form-popup-background-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.digits-form-popup-background-overlay {
+    background-color: rgba(6, 6, 6, 0.8);
+}
+
+.digits-builder .digits-form-popup-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+.digits-popup-container {
+    width: 500px;
+    z-index: 1;
+}
+
+.digits-popup-container, .digits-popup-container-child {
+    display: flex;
+    flex-flow: column nowrap;
+    position: relative;
+}

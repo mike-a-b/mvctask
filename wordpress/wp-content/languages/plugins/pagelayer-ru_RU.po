@@ -1,0 +1,793 @@
+# Translation of Plugins - Page Builder: Pagelayer &#8211; Drag and Drop website builder - Stable (latest release) in Russian
+# This file is distributed under the same license as the Plugins - Page Builder: Pagelayer &#8211; Drag and Drop website builder - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-12-24 15:30:19+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - Page Builder: Pagelayer &#8211; Drag and Drop website builder - Stable (latest release)\n"
+
+#: main/settings.php:686
+msgid "Google Maps API Key"
+msgstr "API ключ карт Google"
+
+#: main/settings.php:690
+msgid "Project ID"
+msgstr "ID проекта"
+
+#: main/settings.php:693
+msgid "Insert google maps API key. <a href=\"https://pagelayer.com/docs/pagelayer-widgets/google-maps/\"><strong>CLICK HERE</strong></a> to get help in getting API key."
+msgstr "Вставьте ключ API google maps. <a href=\"https://pagelayer.com/docs/pagelayer-widgets/google-maps/\"><strong>НАЖМИТЕ ЗДЕСЬ</strong></a> для получения помощи в получении ключа API."
+
+#: main/custom_fonts.php:44
+msgctxt "Add"
+msgid "Add New"
+msgstr "Добавить новое"
+
+#: init.php:296
+msgid "Custom Fonts"
+msgstr "Пользовательские шрифты"
+
+#: main/custom_fonts.php:40
+msgctxt "plural"
+msgid "Custom Fonts"
+msgstr "Пользовательские шрифты"
+
+#: main/custom_fonts.php:42
+msgctxt "admin menu"
+msgid "Custom Fonts"
+msgstr "Пользовательские шрифты"
+
+#: main/custom_fonts.php:43
+msgctxt "admin bar"
+msgid "Custom Fonts"
+msgstr "Пользовательские шрифты"
+
+#: main/settings.php:552
+msgid "Dark Mode"
+msgstr "Тёмный режим"
+
+#: main/custom_fonts.php:79
+msgid "Preview"
+msgstr "Предпросмотр"
+
+#: main/custom_fonts.php:152
+msgctxt "font source"
+msgid "Source"
+msgstr "Источник"
+
+#: main/custom_fonts.php:49
+msgid "All Fonts"
+msgstr "Все шрифты"
+
+#: main/custom_fonts.php:47
+msgid "Edit Font"
+msgstr "Изменить шрифт"
+
+#: main/custom_fonts.php:163
+msgid "Font File"
+msgstr "Файл шрифта"
+
+#: main/custom_fonts.php:41
+msgctxt "singular"
+msgid "Custom Font"
+msgstr "Пользовательский шрифт"
+
+#: main/settings.php:555
+msgid "Enable Dark Mode"
+msgstr "Включить темный режим"
+
+#: main/custom_fonts.php:46
+msgid "New Font"
+msgstr "Новый шрифт"
+
+#: main/custom_fonts.php:50
+msgid "Search Fonts"
+msgstr "Поиск шрифтов"
+
+#: main/custom_fonts.php:48
+msgid "View Font"
+msgstr "Просмотр шрифта"
+
+#: main/custom_fonts.php:51
+msgid "No Pagelayer custom fonts found"
+msgstr "Пользовательские шрифты Pagelayer не найдены"
+
+#: main/custom_fonts.php:87
+msgid "pl-preview"
+msgstr "Предпросмотр Pagelayer"
+
+#: init.php:1166
+msgid "Clone"
+msgstr "Клонировать"
+
+#: main/settings.php:544 main/settings.php:547
+msgid "Disable Clone"
+msgstr "Отключить клонирование"
+
+#: main/replace-media.php:123
+msgid "Upload"
+msgstr "Загрузить"
+
+#: main/replace-media.php:33
+msgid "You do not have permission to upload files."
+msgstr "У вас нет разрешения на загрузку файлов."
+
+#: main/settings.php:581
+msgid "font-awesome5"
+msgstr "font-awesome5"
+
+#: main/replace-media.php:116
+msgid "Choose a file to upload from your computer"
+msgstr "Выберите файл для загрузки с компьютера"
+
+#: main/replace-media.php:39 main/replace-media.php:46
+msgid "ID not found ."
+msgstr "ID не найден."
+
+#: main/replace-media.php:58
+msgid "No file was uploaded ! Please try again."
+msgstr "Файл не загружен! Попробуйте еще раз."
+
+#: main/replace-media.php:72
+msgid "The File type could not be determined. Please upload a permitted file type."
+msgstr "Не удалось определить тип файла. Загрузите файл разрешенного типа."
+
+#: main/replace-media.php:161
+msgid "The uploaded file could not be moved to %1$s. This is most likely an issue with permissions, or upload failed."
+msgstr "Загруженный файл не удалось переместить в %1$s. Скорее всего, это проблема с правами доступа, или загрузка не удалась."
+
+#: main/replace-media.php:64
+msgid "There was some error uploading the file ! Please try again."
+msgstr "При загрузке файла произошла ошибка! Попробуйте еще раз."
+
+#: init.php:299
+msgid "Export Theme"
+msgstr "Экспортировать тему"
+
+#: init.php:299
+msgid "Export Content into a Theme"
+msgstr "Экспорт содержимого в тему"
+
+#: init.php:302
+msgid "Import content from a Theme"
+msgstr "Импорт содержимого из темы"
+
+#: main/post_metas.php:92
+msgctxt "post format"
+msgid "Format"
+msgstr "Формат"
+
+#: main/post_metas.php:458
+msgid "Post Title"
+msgstr "Заголовок записи"
+
+#: main/post_metas.php:461
+msgid "Add title"
+msgstr "Добавить название"
+
+#: main/post_metas.php:102
+msgid "Advanced"
+msgstr "Расширенный"
+
+#: main/post_metas.php:483
+msgid "Get Shortlink"
+msgstr "Получить короткую ссылку"
+
+#: main/post_metas.php:107
+msgid "Header and Footer"
+msgstr "Header и Footer"
+
+#: main/post_metas.php:518
+msgid "Header and Footer Code"
+msgstr "Код Header и Footer"
+
+#: init.php:278
+msgid "Meta Settings"
+msgstr "Настройки мета"
+
+#: main/post_metas.php:432
+msgid "Save Changes"
+msgstr "Сохранить изменения"
+
+#: main/post_metas.php:535
+msgid "Save Codes"
+msgstr "Сохранить коды"
+
+#: main/post_metas.php:44
+msgid "Sorry, you are not allowed to edit this item."
+msgstr "Извините, вам не разрешено редактировать этот пункт."
+
+#: main/post_metas.php:522
+msgid "You can add custom code like HTML, JavaScript, CSS etc. for the current post."
+msgstr "Вы можете добавить пользовательский код, такой как HTML, JavaScript, CSS и т.д. для текущей записи."
+
+#: main/settings.php:708
+msgid "You can use comma seperated values for multiple emails"
+msgstr "Вы можете использовать значения, разделенные запятыми, для нескольких писем"
+
+#: main/functions.php:1219
+msgid "Thanks for choosing "
+msgstr "Спасибо за выбор "
+
+#: main/template.php:477
+msgid "Shortcode"
+msgstr "Шорткод"
+
+#: main/template.php:475
+msgid "Type"
+msgstr "Тип"
+
+#: main/template.php:126
+msgid "404"
+msgstr "404"
+
+#: main/template.php:382
+msgctxt "add templates"
+msgid "Add New"
+msgstr "Добавить новое"
+
+#: main/custom_fonts.php:45 main/template.php:383
+msgid "Add New"
+msgstr "Добавить новое"
+
+#: main/template.php:592
+msgid "All"
+msgstr "Все"
+
+#: main/template.php:387
+msgid "All Templates"
+msgstr "Все шаблоны"
+
+#: main/template.php:45
+msgid "Archive"
+msgstr "Архив"
+
+#: main/template.php:71
+msgid "Archives"
+msgstr "Архивы"
+
+#: main/template.php:87
+msgid "Author Archives"
+msgstr "Архивы авторов"
+
+#: main/template.php:94
+msgid "Date Archives"
+msgstr "Архивы дат"
+
+#: main/template.php:476
+msgid "Display On"
+msgstr "Отображать на"
+
+#: main/template.php:385
+msgid "Edit Template"
+msgstr "Изменить шаблон"
+
+#: main/template.php:66
+msgid "Exclude"
+msgstr "Исключить"
+
+#: main/template.php:39
+msgid "Footer"
+msgstr "Подвал (footer)"
+
+#: main/template.php:119
+msgid "Front Page"
+msgstr "Главная страница"
+
+#: init.php:307
+msgid "Getting Started"
+msgstr "Начало работы"
+
+#: main/template.php:38
+msgid "Header"
+msgstr "Заголовок (header)"
+
+#: main/template.php:65
+msgid "Include"
+msgstr "Включить"
+
+#: main/template.php:384
+msgid "New Template"
+msgstr "Новый шаблон"
+
+#: main/template.php:48
+msgid "Popup"
+msgstr "Всплывающее окно"
+
+#: main/template.php:101
+msgid "Search Results"
+msgstr "Результаты поиска"
+
+#: main/template.php:50
+msgid "Section"
+msgstr "Раздел"
+
+#: main/template.php:41
+msgid "Single"
+msgstr "Одиночная"
+
+#: main/template.php:386
+msgid "View Template"
+msgstr "Просмотр шаблона"
+
+#: main/template.php:276
+msgid "%s"
+msgstr "%s"
+
+#: main/template.php:112
+msgid "By Author"
+msgstr "По автору"
+
+#: main/template.php:225
+msgid "%s By Author"
+msgstr "%s по автору"
+
+#: main/template.php:110
+msgid "All Singular"
+msgstr "Все одиночные"
+
+#: main/template.php:666 main/template.php:680
+msgid "Edit Template Options"
+msgstr "Изменить параметры шаблона"
+
+#: main/template.php:193
+msgid "In %s"
+msgstr "В %s"
+
+#: main/template.php:205
+msgid "In Child %s"
+msgstr "В дочерной %s"
+
+#: main/template.php:506 main/template.php:551
+msgid "None"
+msgstr "Отсутствует"
+
+#: main/template.php:37
+msgid "Select"
+msgstr "Выбрать"
+
+#: main/template.php:388
+msgid "Search Templates"
+msgstr "Поиск шаблонов"
+
+#: main/template.php:69
+msgid "Full Site"
+msgstr "Весь сайт"
+
+#: main/template.php:54
+msgid "Global Section"
+msgstr "Глобальный раздел"
+
+#: main/template.php:59
+msgid "Global Widget"
+msgstr "Глобальный виджет"
+
+#: main/template.php:389
+msgid "No Pagelayer templates found"
+msgstr "Шаблоны Pagelayer не найдены"
+
+#: main/template.php:379
+msgctxt "singular"
+msgid "Pagelayer Template"
+msgstr "Шаблон Pagelayer"
+
+#: main/template.php:378
+msgctxt "plural"
+msgid "Pagelayer Templates"
+msgstr "Шаблоны Pagelayer"
+
+#: main/template.php:380
+msgctxt "admin menu"
+msgid "Pagelayer Templates"
+msgstr "Шаблоны Pagelayer"
+
+#: main/template.php:381
+msgctxt "admin bar"
+msgid "Pagelayer Templates"
+msgstr "Шаблоны Pagelayer"
+
+#: main/functions.php:1223
+msgid "Thanks for choosing Pagelayer. We recommend that you see the short and sweet <a href=\""
+msgstr "Спасибо, что выбрали Pagelayer. Рекомендуем вам увидеть короткое и милое <a href=\""
+
+#: main/template.php:77
+msgid "Singular"
+msgstr "Единичный"
+
+#: main/website.php:300
+msgid "Default"
+msgstr "По умолчанию"
+
+#: main/website.php:325
+msgid "Width"
+msgstr "Ширина"
+
+#: main/website.php:319
+msgid "For Archives"
+msgstr "Для архивов"
+
+#: main/website.php:307
+msgid "For Pages"
+msgstr "Для страниц"
+
+#: main/website.php:313
+msgid "For Posts"
+msgstr "Для записей"
+
+#: main/website.php:295
+msgid "Sidebar Preferences"
+msgstr "Предпочтения области виджетов"
+
+#: main/settings.php:639
+msgid "Facebook"
+msgstr "Facebook"
+
+#: main/settings.php:647
+msgid "Instagram"
+msgstr "Instagram"
+
+#: main/settings.php:651
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: main/settings.php:643
+msgid "Twitter"
+msgstr "Twitter"
+
+#: main/settings.php:655
+msgid "YouTube"
+msgstr "YouTube"
+
+#: main/settings.php:740
+msgid "Additional Headers"
+msgstr "Дополнительные заголовки"
+
+#: main/settings.php:595
+msgid "Address"
+msgstr "Адрес"
+
+#: main/settings.php:675
+msgid "App ID"
+msgstr "ID приложения"
+
+#: main/settings.php:509
+msgid "Contact Form"
+msgstr "Контактная форма"
+
+#: main/settings.php:622
+msgid "Copyright"
+msgstr "Copyright"
+
+#: main/settings.php:626
+msgid "Copyright Text"
+msgstr "Текст авторского права"
+
+#: main/settings.php:719
+msgid "From Email"
+msgstr "Email отправителя"
+
+#: main/settings.php:502 main/woocommerce.php:231
+msgid "General"
+msgstr "Основные"
+
+#: main/settings.php:659
+msgid "Google+"
+msgstr "Google+"
+
+#: main/settings.php:506
+msgid "Information"
+msgstr "Информация"
+
+#: main/settings.php:507
+msgid "Integrations"
+msgstr "Интеграции"
+
+#: main/settings.php:751
+msgid "Messages"
+msgstr "Сообщения"
+
+#: main/settings.php:599
+msgid "Phone Number"
+msgstr "Номер телефона"
+
+#: main/settings.php:730
+msgid "Subject"
+msgstr "Тема"
+
+#: main/settings.php:515 main/settings.php:825
+msgid "Support"
+msgstr "Поддержка"
+
+#: main/settings.php:836
+msgid "2: Support"
+msgstr "2: Поддержка"
+
+#: main/settings.php:831
+msgid "1: Why choose us"
+msgstr "1: Почему выбирают нас"
+
+#: main/settings.php:516 main/settings.php:829
+msgid "FAQ"
+msgstr "FAQ"
+
+#: main/settings.php:591
+msgid "Address and Phone Number"
+msgstr "Адрес и телефон"
+
+#: main/settings.php:604
+msgid "Contact Email"
+msgstr "Контактный адрес эл.почты"
+
+#: main/settings.php:505 main/settings.php:572
+msgid "Enable Icons"
+msgstr "Включить значок"
+
+#: main/settings.php:524
+msgid "Editor Enables On"
+msgstr "Редактор включен"
+
+#: main/settings.php:764
+msgid "Failed Message"
+msgstr "Сообщение об отказе"
+
+#: main/settings.php:510
+msgid "Google Captcha"
+msgstr "Google Captcha"
+
+#: main/post_metas.php:525 main/website.php:344
+msgid "Header Code"
+msgstr "Код Header"
+
+#: main/settings.php:808
+msgid "reCaptcha Language"
+msgstr "Язык reCAPTCHA"
+
+#: main/settings.php:798
+msgid "reCaptcha Secret Key"
+msgstr "Cекретный ключ Recaptcha"
+
+#: main/settings.php:788
+msgid "reCaptcha Site Key"
+msgstr "Ключ сайта reCaptcha"
+
+#: main/settings.php:774
+msgid "reCaptcha Failed Message"
+msgstr "Сообщение об ошибке reCaptcha"
+
+#: init.php:281
+msgid "Website Settings"
+msgstr "Настройки веб-сайта"
+
+#: main/settings.php:708
+msgid "To Email"
+msgstr "На email"
+
+#: main/functions.php:1376 main/functions.php:1409 main/functions.php:1414
+msgid "This feature is a part of <a href=\""
+msgstr "Эта функция является частью <a href = \""
+
+#: main/settings.php:754
+msgid "Success Message"
+msgstr "Сообщение об успехе"
+
+#: main/settings.php:671
+msgid "Facebook SDK Details"
+msgstr "Детали Facebook SDK"
+
+#: main/license.php:120
+msgid "Toggle panel: System Information"
+msgstr "Панель переключения: Информация о системе"
+
+#: main/settings.php:635
+msgid "Social Profile URLs"
+msgstr "URLs социальных профилей"
+
+#: main/settings.php:607
+msgid "You can change your contact email<br> from the Contact Form Settings."
+msgstr "Вы можете изменить контактный email<br> в настройках контактной формы."
+
+#: main/settings.php:833
+msgid "Pagelayer is best live editor and easy to use and we will keep improving it !"
+msgstr "Pagelayer - лучший редактор в реальном времени и простой в использовании, и мы будем продолжать его улучшать!"
+
+#: main/settings.php:751
+msgid "You can edit messages used for information of your form here."
+msgstr "Здесь можно редактировать сообщения, используемые для информации о форме."
+
+#: main/settings.php:838
+msgid "You can contact the PageLayer Group via email. Our email address is <a href=\"mailto:support@pagelayer.com\">support@pagelayer.com</a>. We will get back to you as soon as possible!"
+msgstr "Вы можете связаться с PageLayer Group по электронной почте. Наш адрес электронной почты - <a href=\"mailto:support@pagelayer.com\">support@pagelayer.com</a>. Мы свяжемся с вами как можно скорее!"
+
+#: main/settings.php:826
+msgid "You can contact the Pagelayer Team via email. Our email address is <a href=\"mailto:support@pagelayer.com\">support@pagelayer.com</a>. We will get back to you as soon as possible!"
+msgstr "Вы можете связаться с командой Pagelayer по электронной почте. Наш адрес электронной почты - <a href=\"mailto:support@pagelayer.com\">support@pagelayer.com</a>. Мы свяжемся с вами как можно скорее!"
+
+#: main/import.php:49
+msgid "You have already imported the content of this theme. You can re-import the same by either choosing to over-write existing pages / pagelayer templates OR creating duplicate content !"
+msgstr "Вы уже импортировали содержимое этой темы. Вы можете повторно импортировать то же самое, выбрав перезапись существующих страниц / шаблонов pagelayer ИЛИ создав дублированный контент!"
+
+#: main/website.php:250
+msgid "Content Width"
+msgstr "Ширина содержимого"
+
+#: main/website.php:268
+msgid "Mobile Breakpoint"
+msgstr "Мобильная точка останова"
+
+#: main/website.php:259
+msgid "Tablet Breakpoint"
+msgstr "Точка останова планшета"
+
+#: main/website.php:339
+msgid "Header and Footer code"
+msgstr "Код Header и Footer"
+
+#: main/website.php:277
+msgid "Space Between Widgets"
+msgstr "Расстояние между виджетами"
+
+#: main/post_metas.php:530 main/website.php:351
+msgid "Footer Code"
+msgstr "Код Footer"
+
+#: main/website.php:273
+msgid "Set the breakpoint for mobile devices. The default breakpoint for mobile layout is 360px."
+msgstr "Установите точку останова для мобильных устройств. Точка останова по умолчанию для мобильного макета - 360px."
+
+#: main/website.php:264
+msgid "Set the breakpoint for tablet devices. The default breakpoint for tablet layout is 768px."
+msgstr "Установите точку останова для планшетных устройств. Точка останова по умолчанию для макета планшета - 768px."
+
+#: main/website.php:255
+msgid "Set the custom width of the content area. The default width set is 1170px."
+msgstr "Задайте пользовательскую ширину области содержимого. По умолчанию используется ширина 1170px."
+
+#: main/website.php:282
+msgid "Set the Space Between Widgets. The default Space set is 15px."
+msgstr "Задайте расстояние между виджетами. По умолчанию установлено пространство 15px."
+
+#: main/post_metas.php:532 main/website.php:354
+msgid "This code will be printed before closing the <code>&lt;/body&gt;</code> Section."
+msgstr "Этот код будет выведен перед закрытием раздела <code>&lt;/body&gt;</code>."
+
+#: main/post_metas.php:527 main/website.php:347
+msgid "This code will be printed in <code>&lt;head&gt;</code> Section."
+msgstr "Этот код будет выведен в разделе <code>&lt;head&gt;</code>."
+
+#: main/website.php:340
+msgid "You can add custom code like HTML, JavaScript, CSS etc. which will be inserted throughout your site."
+msgstr "Вы можете добавить пользовательский код, такой как HTML, JavaScript, CSS и т.д., который будет вставлен на весь ваш сайт."
+
+#: main/import.php:70
+msgid "The theme content was successfully imported"
+msgstr "Содержимое темы успешно импортировано"
+
+#: init.php:302
+msgid "Import Theme"
+msgstr "Импортировать тему"
+
+#: init.php:1198
+msgctxt "Upgrade to Pagelayer Pro for many more features"
+msgid "Go Pro"
+msgstr "Перейти на Pro"
+
+#: main/license.php:164
+msgid "URL"
+msgstr "URL"
+
+#: init.php:318
+msgid "License"
+msgstr "Лицензия"
+
+#: init.php:284
+msgid "Theme Templates"
+msgstr "Шаблон темы"
+
+#: main/license.php:183
+msgid ".htaccess is writable"
+msgstr ".htaccess доступен для записи"
+
+#: main/functions.php:2463
+msgid "Done! Pagelayer Pro is now installed and activated."
+msgstr "Выполнено! Pagelayer Pro теперь установлен и активирован."
+
+#: main/license.php:168
+msgid "Path"
+msgstr "Путь"
+
+#: main/license.php:172
+msgid "Server's IP Address"
+msgstr "IP-адрес сервера"
+
+#: main/license.php:125
+msgid "System Information"
+msgstr "Системная информация"
+
+#: main/license.php:69
+msgid "The license key is invalid"
+msgstr "Лицензионный ключ недействителен"
+
+#: main/license.php:50
+msgid "The license key was not submitted"
+msgstr "Лицензионный ключ не был отправлен"
+
+#: main/license.php:61
+msgid "The response was malformed<br>"
+msgstr "Ответ был неверно сформирован<br>"
+
+#: main/license.php:98 main/settings.php:487 main/website.php:166
+msgid "The settings were saved successfully"
+msgstr "Настройки успешно сохранены"
+
+#: main/license.php:176
+msgid "wp-config.php is writable"
+msgstr "wp-config.php доступен для записи"
+
+#: main/license.php:142
+msgid "Pagelayer License"
+msgstr "Лицензия Pagelayer"
+
+#: main/license.php:136
+msgid "Pagelayer Version"
+msgstr "Версия Pagelayer"
+
+#: main/license.php:103
+msgid "You have activated the license, but are using the Free version ! <a href=\""
+msgstr "Вы активировали лицензию, но используете бесплатную версию! <a href=\""
+
+#: init.php:290
+msgid "Add New Template"
+msgstr "Добавить новый шаблон"
+
+#: init.php:272
+msgid "Pagelayer"
+msgstr "PageLayer"
+
+#: init.php:275
+msgid "Settings"
+msgstr "Настройки"
+
+#: init.php:313
+msgid "Go Pro"
+msgstr "Перейти на Pro"
+
+#. Plugin URI of the plugin
+msgid "http://wordpress.org/plugins/pagelayer/"
+msgstr "http://wordpress.org/plugins/pagelayer/"
+
+#. Author URI of the plugin
+msgid "https://pagelayer.com/"
+msgstr "https://pagelayer.com/"
+
+#: init.php:1188
+msgid "Edit using Pagelayer"
+msgstr "Редактировать используя Pagelayer"
+
+#: init.php:1046 init.php:1066
+msgid "Edit with Pagelayer"
+msgstr "Редактировать с помощью Pagelayer"
+
+#. Plugin Name of the plugin
+msgid "PageLayer"
+msgstr "PageLayer"
+
+#: init.php:272 init.php:275 init.php:318
+msgid "Pagelayer Editor"
+msgstr "Редактор Pagelayer"
+
+#: init.php:313
+msgid "Pagelayer Go Pro"
+msgstr "Перейти на Pagelayer Pro"
+
+#. Author of the plugin
+msgid "Pagelayer Team"
+msgstr "Команда Pagelayer"
+
+#. Description of the plugin
+msgid "PageLayer is a WordPress page builder plugin. Its very easy to use and very light on the browser."
+msgstr "PageLayer - это плагин для построения страниц WordPress. Он очень прост в использовании и очень легок для браузера."

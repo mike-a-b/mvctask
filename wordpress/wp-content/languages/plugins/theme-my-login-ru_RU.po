@@ -1,0 +1,652 @@
+# Translation of Plugins - Theme My Login - Development (trunk) in Russian
+# This file is distributed under the same license as the Plugins - Theme My Login - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-02-14 19:56:02+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - Theme My Login - Development (trunk)\n"
+
+#: includes/actions.php:751
+msgid "Missing confirm key."
+msgstr "Отсутствует ключ подтверждения."
+
+#: includes/actions.php:747
+msgid "Missing request ID."
+msgstr "Отсутствует ID запроса."
+
+#: includes/actions.php:446
+msgid "https://wordpress.org/support/article/cookies#enable-cookies-your-browser"
+msgstr "https://wordpress.org/support/article/cookies#enable-cookies-your-browser"
+
+#: admin/functions.php:351
+msgid "Settings"
+msgstr "Настройки"
+
+#: admin/functions.php:179
+msgid "A new <strong>Theme My Login</strong> extension is available!"
+msgstr "Доступно новое расширение <strong>Theme My Login</strong>!"
+
+#: admin/settings.php:718
+msgid "On this page, you can configure the settings for the Theme My Login %s extension."
+msgstr "На этой странице вы можете настроить параметры для расширения Theme My Login %s"
+
+#: admin/settings.php:707
+msgid "View your Theme My Login account"
+msgstr "Просмотреть ваш аккаунт Theme My Login"
+
+#: admin/settings.php:703
+msgid "Go to the Extensions Store"
+msgstr "Перейти в магазин расширений"
+
+#: admin/settings.php:661 admin/settings.php:683 admin/settings.php:734
+msgid "Get Support"
+msgstr "Получить поддержку"
+
+#: admin/settings.php:656 admin/settings.php:679 admin/settings.php:699
+#: admin/settings.php:727
+msgid "View Documentation"
+msgstr "Просмотр документации"
+
+#: includes/class-theme-my-login-widget.php:57
+msgctxt "Howdy"
+msgid "Welcome"
+msgstr "Добро пожаловать"
+
+#: admin/settings.php:757
+msgid "For more information:"
+msgstr "Чтобы получить больше информации:"
+
+#: admin/settings.php:694
+msgid "Once you purchase an extension, you download it from your email receipt or your account page on our website. Then, you install it just like a normal WordPress plugin."
+msgstr "Как только вы приобретете расширение, вы загрузите его со своей электронной почты или на свою учетную страницу на нашем веб-сайте. Затем вы устанавливаете его так же, как обычный плагин WordPress."
+
+#: admin/settings.php:693
+msgid "This page shows you all of the extensions available to purchase for Theme My Login."
+msgstr "На этой странице показаны все расширения, доступные для покупки для Theme My Login."
+
+#: admin/settings.php:674
+msgid "If you have already activated your license, this button will say \"Deactivate\". Click this button to deactivate your license."
+msgstr "Если вы уже активировали свою лицензию, на этой кнопке появится надпись «Деактивировать». Нажмите эту кнопку, чтобы деактивировать вашу лицензию."
+
+#: admin/settings.php:673
+msgid "If you have not yet activated your license, this button will say \"Activate\". Click this button to activate your license."
+msgstr "Если вы еще не активировали свою лицензию, на этой кнопке появится надпись «Активировать». Нажмите эту кнопку, чтобы активировать вашу лицензию."
+
+#: admin/settings.php:672
+msgid "After you enter your license keys and click the Save Changes button at the bottom of the screen, you will see a new button next to each field with a license in it."
+msgstr "После того, как вы введете свои лицензионные ключи и нажмете кнопку «Сохранить изменения» в нижней части экрана, вы увидите новую кнопку рядом с каждым полем с лицензией в нем."
+
+#: admin/settings.php:671
+msgid "When you purchase extensions for Theme My Login, you will enter your license keys on this page."
+msgstr "Приобретая расширения для Theme My Login, вы вводите свои лицензионные ключи на этой странице."
+
+#: admin/settings.php:651 admin/settings.php:721
+msgid "You must click the Save Changes button at the bottom of the screen for new settings to take effect."
+msgstr "Чтобы новые настройки вступили в силу, необходимо нажать кнопку «Сохранить изменения» внизу экрана."
+
+#: admin/settings.php:650
+msgid "Additionally, you can change the slugs that are used to generate the URLs that represent specific actions."
+msgstr "Кроме того, вы можете изменить яплык, которые используются для генерации URL, которые представляют конкретные действия."
+
+#: admin/settings.php:649
+msgid "Below, you can configure how you would like users to register and log in to your site."
+msgstr "Ниже вы можете настроить, как вы хотите, чтобы пользователи регистрировались и заходили на ваш сайт."
+
+#: admin/settings.php:648
+msgid "Welcome to Theme My Login!"
+msgstr "Добро пожаловать в Theme My Login!"
+
+#: admin/settings.php:646 admin/settings.php:669 admin/settings.php:691
+#: admin/settings.php:715
+msgid "Overview"
+msgstr "Обзор"
+
+#: admin/settings.php:249
+msgid "The slugs defined here will be used to generate the URL to the corresponding action. You can see this URL below the slug field. If you would like to use pages for these actions, simply make sure the slug for the action below matches the slug of the page you would like to use for that action."
+msgstr "Определенные здесь ярлыки будут использоваться для генерации URL соответствующего действия. Вы можете увидеть этот URL под полем ярлык. Если вы хотите использовать страницы для этих действий, просто убедитесь, что фрагмент для действия ниже соответствует фрагменту страницы, которую вы хотели бы использовать для этого действия."
+
+#. Description of the plugin
+msgid "Creates an alternate login, registration and password recovery experience within your theme."
+msgstr "Создает альтернативный вход в систему, регистрацию и восстановление пароля в вашей теме."
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://thememylogin.com"
+msgstr "https://thememylogin.com"
+
+#: includes/ms-functions.php:735
+msgid "The site you were looking for, %s, does not exist."
+msgstr "Сайт, который вы искали, %s, не существует."
+
+#: includes/ms-functions.php:730
+msgid "The site you were looking for, %s, does not exist, but you can create it now!"
+msgstr "Сайт, который вы искали, %s, не существует, но вы можете создать его сейчас!"
+
+#: includes/ms-functions.php:696
+msgid "%1$s is your new site. <a href=\"%2$s\">Log in</a> as &#8220;%3$s&#8221; using your existing password."
+msgstr "%1$s is your new site. <a href=\"%2$s\">Log in</a> as &#8220;%3$s&#8221; using your existing password."
+
+#: includes/ms-functions.php:634 includes/ms-functions.php:654
+msgid "Check your inbox at %s and click the link given."
+msgstr "Проверьте почтовый ящик %s и перейдите по полученной ссылке."
+
+#: includes/ms-functions.php:605
+msgid "To change or disable registration go to your <a href=\"%s\">Options page</a>."
+msgstr "Для изменения настроек или отключения регистрации пройдите на <a href=\"%s\">Страницу настроек</a>."
+
+#: includes/ms-functions.php:601
+msgid "The network currently allows both site and user registrations."
+msgstr "Регистрация сайтов и пользователей в сети разрешена."
+
+#: includes/ms-functions.php:597
+msgid "The network currently allows user registrations."
+msgstr "Регистрация пользователей в сети разрешена."
+
+#: includes/ms-functions.php:593
+msgid "The network currently allows site registrations."
+msgstr "Регистрация сайтов в сети разрешена."
+
+#: includes/ms-functions.php:589
+msgid "The network currently disallows registrations."
+msgstr "Регистрация сайтов в сети запрещена."
+
+#: includes/ms-functions.php:586
+msgid "Greetings Network Administrator!"
+msgstr "Приветствуем Администратора Сети!"
+
+#: includes/functions.php:795
+msgid "Username or Email Address"
+msgstr "Имя пользователя или электронная почта"
+
+#: includes/functions.php:713
+msgid "If you have already set your own password, you may disregard this email and use the password you have already set."
+msgstr "Если вы уже установили свой собственный пароль, вы можете игнорировать это письмо и использовать пароль, который вы уже установили."
+
+#: includes/functions.php:584 includes/functions.php:611
+#: includes/functions.php:626
+msgid "TML Action"
+msgstr "TML Действие"
+
+#: includes/extensions.php:214
+msgid "Your license key has reached its activation limit."
+msgstr "Ваш лицензионный ключ достиг предела активации."
+
+#: includes/extensions.php:210
+msgid "Invalid license."
+msgstr "Неверная лицензия."
+
+#: includes/extensions.php:202
+msgid "Your license key has been disabled."
+msgstr "Ваш лицензионный ключ был отключен."
+
+#: includes/extensions.php:196
+msgid "Your license key expired on %s."
+msgstr "Срок действия вашего лицензионного ключа истек на %s."
+
+#: includes/extensions.php:189 includes/extensions.php:222
+#: includes/extensions.php:252 includes/extensions.php:287
+msgid "An error occurred, please try again."
+msgstr "Произошла ошибка. Пожалуйста попробуйте снова."
+
+#. translators: %s: site name
+#: includes/compat.php:95
+msgid "Site Name: %s"
+msgstr "Имя сайта: %s"
+
+#: includes/class-theme-my-login-widget.php:177
+msgid "Show action links?"
+msgstr "Показать ссылки действий?"
+
+#: includes/class-theme-my-login-widget.php:166
+msgid "Action:"
+msgstr "Действие:"
+
+#: includes/actions.php:80
+msgid "Your Data Request"
+msgstr "Ваш запрос на получение данных"
+
+#: includes/actions.php:63
+msgid "Lost your password?"
+msgstr "Забыли пароль?"
+
+#: admin/settings.php:617
+msgid "Settings saved."
+msgstr "Настройки сохранены."
+
+#: admin/settings.php:503
+msgid "Deactivate"
+msgstr "Деактивировать"
+
+#: admin/extensions.php:200 admin/settings.php:491
+msgid "Inactive"
+msgstr "Неактивен"
+
+#: admin/settings.php:488
+msgid "Invalid"
+msgstr "Недействительный"
+
+#: admin/extensions.php:179 admin/settings.php:485
+msgid "Active"
+msgstr "Активно"
+
+#: admin/settings.php:202
+msgid "Automatically log in users after registration"
+msgstr "Автоматический вход пользователей после регистрации"
+
+#: admin/settings.php:197
+msgid "Auto-Login"
+msgstr "Автоматическая авторизация"
+
+#: admin/settings.php:190
+msgid "Allow users to set their own password"
+msgstr "Разрешить пользователям устанавливать свой собственный пароль"
+
+#: admin/settings.php:185
+msgid "Passwords"
+msgstr "Пароли"
+
+#: admin/settings.php:170 admin/settings.php:175
+msgid "Registration Type"
+msgstr "Тип регистрации"
+
+#: admin/settings.php:113
+msgid "Slugs"
+msgstr "Ярлыки"
+
+#: admin/settings.php:108
+msgid "Registration"
+msgstr "Регистрация"
+
+#: admin/functions.php:311
+msgid "Add to Menu"
+msgstr "Добавить в меню"
+
+#: admin/functions.php:278 includes/functions.php:555
+msgid "Theme My Login Actions"
+msgstr "Theme My Login Actions"
+
+#: admin/functions.php:163
+msgid "As a token of our gratitude, we would like to offer your an incentive for upgrading Theme My Login to version 7.0. For a limited time, we are offering a <strong>20% discount</strong> when you use the code <strong>SAVINGFACE</strong> at checkout. Act now - this offer won't last!"
+msgstr "В знак нашей благодарности мы хотели бы предложить вам стимул для обновления Theme My Login до версии 7.0. В течение ограниченного времени мы предлагаем <strong> скидку 20% </strong>, когда вы используете код <strong> SAVINGFACE </strong> при оформлении заказа. Действуй сейчас - это предложение не продлится долго!"
+
+#: admin/functions.php:110 admin/functions.php:355
+msgid "Extensions"
+msgstr "Расширения"
+
+#: admin/functions.php:100
+msgid "Licenses"
+msgstr "Лицензии"
+
+#: admin/functions.php:99
+msgid "Theme My Login Licenses"
+msgstr "Theme My Login Licenses"
+
+#: admin/extensions.php:104
+msgid "View All Extensions"
+msgstr "Просмотреть все расширения"
+
+#: admin/extensions.php:94 admin/functions.php:186
+msgid "Get This Extension"
+msgstr "Получить это расширение"
+
+#: admin/extensions.php:72
+msgid "Error: %s"
+msgstr "Ошибка: %s"
+
+#: admin/extensions.php:71
+msgid "Whoops! Looks like there was an error fetching extensions from the server. Please try again."
+msgstr "Упс! Похоже, что при загрузке расширений с сервера произошла ошибка. Пожалуйста, попробуйте еще раз."
+
+#: includes/forms.php:268
+msgid "Confirm new password"
+msgstr "Подтвердите новый пароль"
+
+#: includes/forms.php:158 includes/forms.php:279 includes/ms-functions.php:376
+msgid "Strength indicator"
+msgstr "Индикатор надёжности"
+
+#: includes/forms.php:257
+msgid "New password"
+msgstr "Новый пароль"
+
+#: includes/forms.php:177
+msgid "Registration confirmation will be emailed to you."
+msgstr "Подтверждение регистрации будет отправлено на ваш e-mail."
+
+#: includes/ms-functions.php:1089
+msgid "New Password"
+msgstr "Новый пароль"
+
+#: includes/ms-functions.php:150
+msgid "Next"
+msgstr "Далее"
+
+#: includes/ms-functions.php:140
+msgid "Just a username, please."
+msgstr "Только имя пользователя, пожалуйста."
+
+#: includes/ms-functions.php:139
+msgid "Gimme a site!"
+msgstr "Дайте мне сайт!"
+
+#: includes/ms-functions.php:105
+msgid "We send your registration email to this address. (Double-check your email address before continuing.)"
+msgstr "На этот адрес будет отправлено письмо для подтверждения. (Внимательно проверьте адрес e-mail, перед тем как продолжить.)"
+
+#: includes/ms-functions.php:104
+msgid "Email&nbsp;Address:"
+msgstr "Адрес e-mail:"
+
+#: includes/ms-functions.php:82
+msgid "(Must be at least 4 characters, letters and numbers only.)"
+msgstr "(Не менее 4 символов, только буквы и цифры.)"
+
+#: includes/ms-functions.php:788
+msgid "Get your own %s account in seconds"
+msgstr "Создайте учётную запись в сети «%s» за считанные секунды"
+
+#: includes/ms-functions.php:195
+msgid "Signup"
+msgstr "Зарегистрироваться"
+
+#: includes/ms-functions.php:232
+msgid "Create Site"
+msgstr "Создать сайт"
+
+#: includes/ms-functions.php:311
+msgid "No"
+msgstr "Нет"
+
+#: includes/ms-functions.php:310
+msgid "Yes"
+msgstr "Да"
+
+#: includes/ms-functions.php:315
+msgid "Allow search engines to index this site."
+msgstr "Разрешить поисковым системам индексировать сайт."
+
+#: includes/ms-functions.php:307
+msgid "Privacy:"
+msgstr "Приватность:"
+
+#: includes/ms-functions.php:292
+msgid "Site Title:"
+msgstr "Заголовок сайта:"
+
+#: includes/ms-functions.php:251 includes/ms-functions.php:272
+msgid "Must be at least 4 characters, letters and numbers only. It cannot be changed, so choose carefully!"
+msgstr "Не менее 4 символов, только буквы и цифры. Значение нельзя изменить позже, будьте внимательны!"
+
+#: includes/ms-functions.php:250 includes/ms-functions.php:271
+msgid "Your address will be %s."
+msgstr "Вашим адресом будет %s."
+
+#: includes/ms-functions.php:271
+msgid "domain"
+msgstr "домен"
+
+#: includes/ms-functions.php:250
+msgid "sitename"
+msgstr "имя-сайта"
+
+#: includes/ms-functions.php:277
+msgid "Site Domain:"
+msgstr "Домен сайта:"
+
+#: includes/ms-functions.php:256
+msgid "Site Name: "
+msgstr "Имя сайта:"
+
+#: includes/ms-functions.php:883
+msgid "If you&#8217;re not going to use a great site domain, leave it for a new user. Now have at it!"
+msgstr "Если вы не собираетесь использовать отличный домен, оставьте его для новых пользователей. А теперь приступайте!"
+
+#: includes/ms-functions.php:875
+msgid "Sites you are already a member of:"
+msgstr "Сайты, участником которых вы являетесь:"
+
+#: includes/ms-functions.php:871
+msgid "Welcome back, %s. By filling out the form below, you can <strong>add another site to your account</strong>. There is no limit to the number of sites you can have, so create to your heart&#8217;s content, but write responsibly!"
+msgstr "Добро пожаловать, %s. Заполнив форму ниже, вы сможете <strong>добавить к вашей учётной записи ещё один сайт</strong>. На количество сайтов нет ограничений, но к написанию материалов на них подходите ответственно!"
+
+#: includes/ms-functions.php:867
+msgid "Get <em>another</em> %s site in seconds"
+msgstr "Получите <em>ещё один</em> сайт в сети «%s» за считанные секунды"
+
+#: includes/forms.php:227
+msgid "Get New Password"
+msgstr "Получить новый пароль"
+
+#: includes/forms.php:70
+msgid "Remember Me"
+msgstr "Запомнить меня"
+
+#: includes/forms.php:109 includes/functions.php:784 includes/functions.php:791
+msgid "Username"
+msgstr "Имя пользователя"
+
+#: admin/settings.php:157 admin/settings.php:177
+msgid "Default"
+msgstr "По умолчанию"
+
+#: includes/actions.php:32
+msgid "Log in"
+msgstr "Войти"
+
+#: includes/actions.php:516
+msgid "Registration complete. You may now log in."
+msgstr "Регистрация завершена. Теперь вы можете войти."
+
+#: includes/forms.php:148 includes/ms-functions.php:366
+msgid "Confirm Password"
+msgstr "Подтвердите пароль"
+
+#: includes/forms.php:57 includes/forms.php:138 includes/ms-functions.php:356
+msgid "Password"
+msgstr "Пароль"
+
+#: includes/forms.php:129 includes/functions.php:793
+msgid "Email"
+msgstr "E-mail"
+
+#. translators: Password reset email subject. %s: Site name
+#: includes/compat.php:112
+msgid "[%s] Password Reset"
+msgstr "[%s] Новый пароль"
+
+#: includes/compat.php:99
+msgid "To reset your password, visit the following address:"
+msgstr "Чтобы сбросить пароль, перейдите по следующей ссылке:"
+
+#: includes/compat.php:98
+msgid "If this was a mistake, just ignore this email and nothing will happen."
+msgstr "Если произошла ошибка, просто проигнорируйте это письмо, и ничего не произойдёт."
+
+#. translators: %s: user login
+#: includes/compat.php:97
+msgid "Username: %s"
+msgstr "Имя пользователя: %s"
+
+#: includes/compat.php:93
+msgid "Someone has requested a password reset for the following account:"
+msgstr "Кто-то запросил сброс пароля для следующей учетной записи:"
+
+#: includes/actions.php:525
+msgid "<strong>You have successfully updated WordPress!</strong> Please log back in to see what&#8217;s new."
+msgstr "<strong>Вы успешно обновили WordPress!</strong> Пожалуйста, войдите снова, чтобы узнать, что нового."
+
+#: includes/actions.php:522
+msgid "Your password has been reset."
+msgstr "Ваш новый пароль вступил в силу."
+
+#: includes/actions.php:506
+msgid "You are now logged out."
+msgstr "Вы вышли из системы."
+
+#: includes/actions.php:69
+msgid "Reset Password"
+msgstr "Сбросить пароль"
+
+#: includes/actions.php:38 includes/class-theme-my-login-widget.php:100
+#: includes/shortcodes.php:89
+msgid "Log Out"
+msgstr "Выйти"
+
+#. Plugin Name of the plugin
+#. Author of the plugin
+#: admin/functions.php:67 includes/class-theme-my-login-widget.php:23
+msgid "Theme My Login"
+msgstr "Theme My Login"
+
+#: includes/class-theme-my-login-widget.php:25
+msgid "A login form for your site."
+msgstr "Форма входа для вашего сайта."
+
+#: includes/actions.php:19 includes/class-theme-my-login-widget.php:92
+msgid "Dashboard"
+msgstr "Консоль"
+
+#: admin/settings.php:103 includes/actions.php:28 includes/forms.php:78
+msgid "Log In"
+msgstr "Войти"
+
+#: includes/actions.php:58
+msgid "Lost Password"
+msgstr "Забыли пароль?"
+
+#: includes/actions.php:48 includes/forms.php:184
+msgid "Register"
+msgstr "Регистрация"
+
+#: includes/ms-functions.php:1116
+msgid "Your account is now activated. <a href=\"%1$s\">Log in</a> or go back to the <a href=\"%2$s\">homepage</a>."
+msgstr "Теперь ваша учетная запись активирована. <a href=\"%1$s\">Войдите</a> или вернитесь на <a href=\"%2$s\">главную страницу</a>."
+
+#: includes/ms-functions.php:1112
+msgid "Your account is now activated. <a href=\"%1$s\">View your site</a> or <a href=\"%2$s\">Log in</a>"
+msgstr "Теперь ваша учетная запись активирована. <a href=\"%1$s\">Просмотрите свой сайт</a> или <a href=\"%2$s\">Войдите</a>"
+
+#: includes/ms-functions.php:1103
+msgid "Password:"
+msgstr "Пароль:"
+
+#: includes/ms-functions.php:81 includes/ms-functions.php:1102
+msgid "Username:"
+msgstr "Имя пользователя:"
+
+#: includes/ms-functions.php:1092
+msgid "An error occurred during the activation"
+msgstr "Произошла ошибка во время активации"
+
+#: includes/ms-functions.php:1061 includes/ms-functions.php:1099
+msgid "Your account is now active!"
+msgstr "Ваша учётная запись активирована!"
+
+#: admin/settings.php:515 includes/ms-functions.php:389
+msgid "Activate"
+msgstr "Активировать"
+
+#: includes/ms-functions.php:347
+msgid "Activation Key:"
+msgstr "Ключ активации:"
+
+#: includes/ms-functions.php:1053
+msgid "Activation Key Required"
+msgstr "Требуется ключ активации"
+
+#: includes/ms-functions.php:722
+msgid "You are logged in already. No need to register again!"
+msgstr "Вы уже вошли на сайт. Нет нужды регистрироваться снова!"
+
+#: includes/ms-functions.php:720
+msgid "Sorry, new registrations are not allowed at this time."
+msgstr "Извините, в настоящий момент регистрация закрыта."
+
+#: includes/ms-functions.php:694
+msgid "The site %s is yours."
+msgstr "Сайт «%s» — ваш."
+
+#: includes/ms-functions.php:667
+msgid "Site registration has been disabled."
+msgstr "Регистрация сайтов отключена."
+
+#: includes/ms-functions.php:662
+msgid "Have you entered your email correctly? You have entered %s, if it&#8217;s incorrect, you will not receive your email."
+msgstr "Вы правильно указали свой e-mail? У нас он записан как %s, но если это неправильный адрес, письмо не придёт."
+
+#: includes/ms-functions.php:661
+msgid "Check the junk or spam folder of your email client. Sometime emails wind up there by mistake."
+msgstr "Проверьте корзину или папку для спама в вашем почтовом клиенте. Иногда письма по ошибке оказываются там."
+
+#: includes/ms-functions.php:660
+msgid "Wait a little longer. Sometimes delivery of email can be delayed by processes outside of our control."
+msgstr "Подождите ещё немного. Иногда доставка электронного письма может задержаться по независящим от нас причинам."
+
+#: includes/ms-functions.php:658
+msgid "If you haven&#8217;t received your email yet, there are a number of things you can do:"
+msgstr "Если Вы всё же не получили письмо, есть несколько вещей, которые Вы можете сделать:"
+
+#: includes/ms-functions.php:656
+msgid "Still waiting for your email?"
+msgstr "Всё ещё не получили письма?"
+
+#: includes/ms-functions.php:655
+msgid "If you do not activate your site within two days, you will have to sign up again."
+msgstr "Если вы не активируете ваш сайт в течение двух дней, Вам придется зарегистрироваться еще раз."
+
+#: includes/ms-functions.php:653
+msgid "But, before you can start using your site, <strong>you must activate it</strong>."
+msgstr "Прежде чем использовать ваш сайт, <strong>вы должны активировать его</strong>."
+
+#: includes/ms-functions.php:652
+msgid "Congratulations! Your new site, %s, is almost ready."
+msgstr "Поздравляю! Ваш сайт , %s, почти готов."
+
+#: includes/ms-functions.php:638
+msgid "User registration has been disabled."
+msgstr "Регистрация пользователей была отключена."
+
+#: includes/ms-functions.php:635
+msgid "If you do not activate your username within two days, you will have to sign up again."
+msgstr "Если вы не активируете свою учетную запись в течение двух дней, вам придется зарегистрироваться еще раз."
+
+#: includes/ms-functions.php:633
+msgid "But, before you can start using your new username, <strong>you must activate it</strong>."
+msgstr "Прежде чем использовать вашу учётную запись, <strong>вы должны активировать её</strong>."
+
+#: includes/ms-functions.php:632
+msgid "%s is your new username"
+msgstr "%s ваше новое имя пользователя"
+
+#: includes/ms-functions.php:617
+msgid "You must first <a href=\"%s\">log in</a>, and then you can create a new site."
+msgstr "Вам необходимо <a href=\"%s\">авторизоваться</a>, чтобы создать новый сайт."
+
+#: includes/ms-functions.php:614
+msgid "Registration has been disabled."
+msgstr "Регистрация отключена."
+
+#: admin/settings.php:159 admin/settings.php:178
+msgid "Email only"
+msgstr "Только email"
+
+#: admin/settings.php:158
+msgid "Username only"
+msgstr "Только имя пользователя"
+
+#: admin/settings.php:150 admin/settings.php:155
+msgid "Login Type"
+msgstr "Тип логина"
+
+#: admin/functions.php:78 admin/settings.php:98
+msgid "General"
+msgstr "Основные"
+
+#: admin/functions.php:66 admin/functions.php:77
+msgid "Theme My Login Settings"
+msgstr "Настройки Theme My Login"

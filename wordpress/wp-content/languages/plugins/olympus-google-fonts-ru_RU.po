@@ -1,0 +1,614 @@
+# Translation of Plugins - Fonts Plugin | Google Fonts Typography - Stable (latest release) in Russian
+# This file is distributed under the same license as the Plugins - Fonts Plugin | Google Fonts Typography - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-11-06 19:04:12+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - Fonts Plugin | Google Fonts Typography - Stable (latest release)\n"
+
+#: includes/class-ogf-typekit.php:106
+msgid "Disabled"
+msgstr "Выключен"
+
+#: includes/class-ogf-typekit.php:106
+msgid "Enabled"
+msgstr "Включить"
+
+#: includes/class-ogf-typekit.php:32 includes/class-ogf-typekit.php:33
+msgid "Adobe Fonts"
+msgstr "Шрифты Adobe"
+
+#: includes/class-ogf-typekit.php:48
+msgid "API Key"
+msgstr "Ключ API"
+
+#: includes/class-ogf-typekit.php:46
+msgid "Configuration"
+msgstr "Конфигурация"
+
+#: includes/class-ogf-typekit.php:47
+msgid "Results"
+msgstr "Результаты"
+
+#: includes/class-ogf-typekit.php:81
+msgid "Save"
+msgstr "Сохранить"
+
+#: includes/class-ogf-typekit.php:110
+msgid "Font Family: "
+msgstr "Семейство шрифтов: "
+
+#: includes/class-ogf-typekit.php:62
+msgid "Refresh Fonts"
+msgstr "Обновить шрифты"
+
+#: includes/customizer/settings.php:230
+msgid "Disable Editor Controls"
+msgstr "Отключить элементы управления редактором"
+
+#: includes/customizer/controls/class-ogf-customize-typography-control.php:264
+msgid "None"
+msgstr "Отсутствует"
+
+#: includes/customizer/settings.php:254
+msgid "Block"
+msgstr "Блок"
+
+#: admin/class-ogf-welcome-screen.php:49 admin/class-ogf-welcome-screen.php:50
+msgid "Documentation"
+msgstr "Документация"
+
+#: includes/customizer/settings.php:256
+msgid "Optional"
+msgstr "Опционально"
+
+#: includes/class-ogf-fonts.php:104
+msgid "Font Missing"
+msgstr "Шрифт отсутствует"
+
+#: includes/class-ogf-fonts-taxonomy.php:65
+msgid "Custom Fonts"
+msgstr "Пользовательские шрифты"
+
+#: includes/class-ogf-fonts-taxonomy.php:67
+msgctxt "Admin menu name"
+msgid "Custom Fonts"
+msgstr "Пользовательские шрифты"
+
+#: admin/class-ogf-welcome-screen.php:39 admin/class-ogf-welcome-screen.php:40
+msgid "Customize Fonts"
+msgstr "Настроить шрифты"
+
+#: admin/class-ogf-upload-fonts-screen.php:170
+#: admin/class-ogf-upload-fonts-screen.php:194
+msgid "Upload"
+msgstr "Загрузить"
+
+#: includes/class-ogf-fonts-taxonomy.php:74
+msgid "Add New Font"
+msgstr "Добавить новый шрифт"
+
+#: includes/class-ogf-fonts-taxonomy.php:69
+msgid "All Fonts"
+msgstr "Все шрифты"
+
+#: includes/class-ogf-fonts-taxonomy.php:72
+msgid "Edit Font"
+msgstr "Изменить шрифт"
+
+#: admin/class-ogf-upload-fonts-screen.php:152
+msgid "Font .otf"
+msgstr "Шрифт формата .otf"
+
+#: admin/class-ogf-upload-fonts-screen.php:151
+msgid "Font .ttf"
+msgstr "Шрифт формата .ttf"
+
+#: admin/class-ogf-upload-fonts-screen.php:149
+msgid "Font .woff"
+msgstr "Шрифт формата .woff"
+
+#: admin/class-ogf-upload-fonts-screen.php:150
+msgid "Font .woff2"
+msgstr "Шрифт формата .woff2"
+
+#: includes/class-ogf-fonts-taxonomy.php:68
+msgid "Search Fonts"
+msgstr "Поиск шрифтов"
+
+#. Author URI of the plugin
+msgid "https://fontsplugin.com/?utm_source=wporg&utm_medium=readme&utm_campaign=description"
+msgstr "https://fontsplugin.com/?utm_source=wporg&utm_medium=readme&utm_campaign=description"
+
+#: includes/customizer/controls/class-ogf-customize-typography-control.php:53
+msgid "Letter Spacing (px)"
+msgstr "Интервал между буквами (px)"
+
+#: includes/customizer/controls/class-ogf-customize-typography-control.php:263
+msgid "Lowercase"
+msgstr "Строчные"
+
+#: includes/customizer/controls/class-ogf-customize-typography-control.php:54
+msgid "Text Transform"
+msgstr "Преобразование текста"
+
+#: includes/customizer/controls/class-ogf-customize-typography-control.php:262
+msgid "Uppercase"
+msgstr "Верхний регистр"
+
+#: includes/customizer/controls/class-ogf-customize-typography-control.php:261
+msgid "Capitalize"
+msgstr "Заглавные буквы"
+
+#: includes/functions.php:337
+msgid "Bold Italic"
+msgstr "Жирный курсив"
+
+#: includes/functions.php:259
+msgid "Helvetica Neue"
+msgstr "Helvetica Neue"
+
+#: includes/customizer/panels.php:158 includes/customizer/settings.php:63
+msgid "Load Fonts Only"
+msgstr "Загружать только шрифты"
+
+#: includes/functions.php:269
+msgid "Futura"
+msgstr "Futura"
+
+#: includes/class-ogf-reset.php:59 includes/class-ogf-reset.php:65
+msgid "Reset All Fonts"
+msgstr "Сбросить все шрифты"
+
+#: includes/class-ogf-reset.php:41 includes/class-ogf-reset.php:60
+msgid "This will reset all fonts set by this plugin to their defaults. This action can not be reversed."
+msgstr "Это сбросит все шрифты, установленные этим плагином, к их значениям по умолчанию. Это действие не может быть отменено."
+
+#: includes/customizer/settings.php:64
+msgid "Load fonts but don't automatically assign them to an element."
+msgstr "Шрифты загружаются, но не присваиваются элементу автоматически."
+
+#: includes/customizer/controls/class-ogf-customize-typography-control.php:150
+msgid "Advanced"
+msgstr "Дополнительно"
+
+#: includes/customizer/controls/class-ogf-customize-typography-control.php:140
+#: blocks/dist/blocks.build.js:1 blocks/src/google-fonts/edit.js:64
+msgid "- System Fonts -"
+msgstr "- Системные шрифты -"
+
+#: includes/customizer/controls/class-ogf-customize-typography-control.php:144
+#: blocks/dist/blocks.build.js:1 blocks/src/google-fonts/edit.js:80
+msgid "- Google Fonts -"
+msgstr "- Шрифты Google -"
+
+#: includes/customizer/controls/class-ogf-customize-typography-control.php:126
+msgid "Default Font"
+msgstr "Стандартный шрифт"
+
+#: includes/functions.php:304
+msgid "Verdana"
+msgstr "Verdana"
+
+#: includes/functions.php:299
+msgid "Palatino"
+msgstr "Palatino"
+
+#: includes/functions.php:294
+msgid "Trebuchet MS"
+msgstr "Trebuchet MS"
+
+#: includes/functions.php:289
+msgid "Times New Roman"
+msgstr "Times New Roman"
+
+#: includes/functions.php:284
+msgid "Tahoma"
+msgstr "Tahoma"
+
+#: includes/functions.php:274
+msgid "Lucida Grande"
+msgstr "Lucida Grande"
+
+#: includes/functions.php:264
+msgid "Georgia"
+msgstr "Georgia"
+
+#: includes/functions.php:254
+msgid "Courier New"
+msgstr "Courier New"
+
+#: includes/functions.php:249
+msgid "Consolas"
+msgstr "Consolas"
+
+#: includes/functions.php:239
+msgid "Calibri"
+msgstr "Calibri"
+
+#: includes/functions.php:234
+msgid "Arial"
+msgstr "Arial"
+
+#. Author of the plugin
+#: admin/class-ogf-welcome-screen.php:28 includes/customizer/panels.php:31
+msgid "Fonts Plugin"
+msgstr "Fonts Plugin"
+
+#: includes/class-ogf-notifications.php:221
+msgid "Google Fonts WordPress Plugin"
+msgstr "WordPress-плагин шрифтов Google"
+
+#: includes/customizer/panels.php:142
+msgid "Sidebar"
+msgstr "Область виджетов"
+
+#: includes/customizer/panels.php:40
+msgid "Theme Settings"
+msgstr "Настройки темы"
+
+#: includes/class-ogf-fonts-taxonomy.php:66 blocks/dist/blocks.build.js:1
+#: blocks/src/google-fonts/edit.js:261
+msgid "Font"
+msgstr "Шрифт"
+
+#: class-olympus-google-fonts.php:196
+msgid "Upgrade to Pro"
+msgstr "Обновить до PRO"
+
+#: includes/customizer/panels.php:150
+msgid "Footer"
+msgstr "Нижняя часть"
+
+#: includes/customizer/panels.php:134
+msgid "Content"
+msgstr "Содержимое"
+
+#: includes/customizer/panels.php:126
+msgid "Navigation"
+msgstr "Навигация"
+
+#: includes/customizer/panels.php:118
+msgid "Branding"
+msgstr "Брендинг"
+
+#: includes/customizer/panels.php:91
+msgid "Debugging"
+msgstr "Отладка"
+
+#: includes/customizer/panels.php:81
+msgid "Font Loading"
+msgstr "Загрузка шрифта"
+
+#: includes/customizer/panels.php:70 includes/customizer/panels.php:100
+#: includes/customizer/settings.php:45
+msgid "Custom Elements"
+msgstr "Пользовательские элементы"
+
+#: includes/customizer/controls/class-ogf-customize-typography-control.php:50
+msgid "Font Size (px)"
+msgstr "Размер шрифта (px)"
+
+#: includes/customizer/controls/class-ogf-customize-repeater-control.php:163
+msgid "Delete field"
+msgstr "Удалить поле"
+
+#: includes/customizer/controls/class-ogf-customize-repeater-control.php:153
+msgid "Selectors"
+msgstr "Переключатели"
+
+#: includes/customizer/controls/class-ogf-customize-repeater-control.php:142
+#: includes/customizer/controls/class-ogf-customize-repeater-control.php:148
+msgid "Description"
+msgstr "Описание"
+
+#: includes/customizer/panels.php:110
+msgid "Theme Elements"
+msgstr "Элементы темы"
+
+#. Translators: %s Custom Elements Customizer Panel URL
+#: includes/customizer/panels.php:102
+msgid "Custom Elements allow you to apply Google Fonts to any part of your website, they can be setup under <a href=\"%s\">Google Fonts &rarr; Custom Elements</a>."
+msgstr "Пользовательские элементы позволяют применять шрифты от Google к любой части вашего сайта, их можно настроить в разделе <a href=\"%s\">Google Fonts &rarr; Пользовательские элементы</a>."
+
+#: includes/customizer/controls/class-ogf-customize-repeater-control.php:131
+#: includes/customizer/controls/class-ogf-customize-repeater-control.php:137
+msgid "Label"
+msgstr "Метка"
+
+#: includes/customizer/controls/class-ogf-customize-repeater-control.php:84
+msgid "Save Elements"
+msgstr "Сохранить элементы"
+
+#: includes/customizer/controls/class-ogf-customize-repeater-control.php:81
+msgid "Add New"
+msgstr "Добавить новый"
+
+#: includes/functions.php:112
+msgid "Select and configure the font for your H6 headings."
+msgstr "Выберите и настройте шрифт для заголовков H6."
+
+#: includes/functions.php:111
+msgid "H6 Typography"
+msgstr "Оформление H6"
+
+#: includes/functions.php:106
+msgid "Select and configure the font for your H5 headings."
+msgstr "Выберите и настройте шрифт для заголовков H5."
+
+#: includes/functions.php:105
+msgid "H5 Typography"
+msgstr "Оформление H5"
+
+#: includes/functions.php:99
+msgid "H4 Typography"
+msgstr "Оформление H4"
+
+#: includes/functions.php:100
+msgid "Select and configure the font for your H4 headings."
+msgstr "Выберите и настройте шрифт для заголовков H4."
+
+#: includes/functions.php:94
+msgid "Select and configure the font for your H3 headings."
+msgstr "Выберите и настройте шрифт для заголовков H3."
+
+#: includes/functions.php:93
+msgid "H3 Typography"
+msgstr "Оформление H3"
+
+#: includes/functions.php:88
+msgid "Select and configure the font for your H2 headings."
+msgstr "Выберите и настройте шрифт для заголовков H2."
+
+#: includes/functions.php:87
+msgid "H2 Typography"
+msgstr "Оформление H2"
+
+#: includes/functions.php:75 includes/functions.php:129
+#: includes/functions.php:143
+msgid "Content Typography"
+msgstr "Оформление содержимого"
+
+#. translators: %s Link to Google Fonts customizer panel.
+#: includes/class-ogf-welcome.php:102
+msgid "Thank you for installing <strong>Google Fonts for WordPress</strong>! Configure your fonts here: <a href=\"%s\">WordPress Customizer</a>"
+msgstr "Спасибо за установку <strong>Google Fonts для WordPress</strong>! Настройте свои шрифты здесь: <a href=\"%s\">настройщик WordPress</a>"
+
+#: includes/functions.php:144
+msgid "Select and configure the font for your footer content."
+msgstr "Выберите и настройте шрифт для содержимого нижней части."
+
+#: includes/functions.php:136
+msgid "Select and configure the font for your footer headings."
+msgstr "Выберите и настройте шрифт для заголовков нижней части."
+
+#: includes/functions.php:130
+msgid "Select and configure the font for your sidebar content."
+msgstr "Выберите и настройте шрифт для содержимого области виджетов."
+
+#: includes/functions.php:124
+msgid "Select and configure the font for your sidebar headings."
+msgstr "Выберите и настройте шрифт для заголовков области виджетов."
+
+#: includes/functions.php:76
+msgid "Select and configure the font for your post and page content."
+msgstr "Выберите и настройте шрифт для содержимого записей и страниц."
+
+#: includes/functions.php:82
+msgid "Select and configure the font for your title and H1 headings."
+msgstr "Выберите и настройте шрифт для названий и заголовков нижней части."
+
+#: includes/functions.php:81
+msgid "Title and H1 Typography"
+msgstr "Оформление названий и H1"
+
+#: includes/functions.php:70
+msgid "Select and configure the font for your site navigation."
+msgstr "Выберите и настройте шрифт для навигации по сайту."
+
+#: includes/functions.php:69
+msgid "Navigation Typography"
+msgstr "Оформление навигации"
+
+#: includes/functions.php:63
+msgid "Site Description Typography"
+msgstr "Оформление описания сайта"
+
+#: includes/functions.php:64
+msgid "Select and configure the font for your site description."
+msgstr "Выберите и настройте шрифт описания сайта."
+
+#: includes/functions.php:57
+msgid "Site Title Typography"
+msgstr "Оформление названия сайта"
+
+#: includes/functions.php:58
+msgid "Select and configure the font for your site title."
+msgstr "Выберите и настройте шрифт названия сайта."
+
+#: includes/functions.php:52
+msgid "Select and configure the font for your input fields and buttons."
+msgstr "Выберите и настройте шрифт полей ввода и кнопок."
+
+#: includes/functions.php:51
+msgid "Buttons and Inputs Typography"
+msgstr "Оформление кнопок и полей ввода"
+
+#: includes/customizer/controls/class-ogf-customize-repeater-control.php:159
+msgid "Add your selectors..."
+msgstr "Добавьте переключатели…"
+
+#: includes/functions.php:46
+msgid "Select and configure the font for your headings."
+msgstr "Выберите и настройте шрифт заголовков."
+
+#: includes/functions.php:45 includes/functions.php:123
+#: includes/functions.php:135
+msgid "Headings Typography"
+msgstr "Оформление заголовков"
+
+#: includes/functions.php:40
+msgid "Select and configure the font for your content."
+msgstr "Выберите и настройте шрифт для содержимого."
+
+#: includes/functions.php:39
+msgid "Base Typography"
+msgstr "Основное оформление"
+
+#: includes/customizer/controls/class-ogf-customize-typography-control.php:249
+msgid "Oblique"
+msgstr "Наклоннный"
+
+#: includes/functions.php:327 blocks/dist/blocks.build.js:1
+#: blocks/src/google-fonts/edit.js:154
+msgid "Semi Bold"
+msgstr "Полужирный"
+
+#: includes/functions.php:326 blocks/dist/blocks.build.js:1
+#: blocks/src/google-fonts/edit.js:153
+msgid "Medium"
+msgstr "Средний"
+
+#: includes/customizer/controls/class-ogf-customize-typography-control.php:233
+#: includes/customizer/controls/class-ogf-customize-typography-control.php:247
+#: includes/functions.php:325 blocks/dist/blocks.build.js:1
+#: blocks/src/google-fonts/edit.js:152
+msgid "Normal"
+msgstr "Обычный"
+
+#: includes/functions.php:324 blocks/dist/blocks.build.js:1
+#: blocks/src/google-fonts/edit.js:151
+msgid "Light"
+msgstr "Светлый"
+
+#: includes/functions.php:322 blocks/dist/blocks.build.js:1
+#: blocks/src/google-fonts/edit.js:149
+msgid "Thin"
+msgstr "Тонкий"
+
+#: includes/customizer/controls/class-ogf-customize-typography-control.php:52
+msgid "Color"
+msgstr "Цвет"
+
+#: includes/customizer/controls/class-ogf-customize-typography-control.php:49
+msgid "Font Style"
+msgstr "Стиль шрифта"
+
+#: includes/customizer/controls/class-ogf-customize-typography-control.php:48
+msgid "Font Weight"
+msgstr "Толщина шрифта"
+
+#: includes/customizer/controls/class-ogf-customize-typography-control.php:47
+msgid "Font Family"
+msgstr "Семейство шрифтов"
+
+#: class-olympus-google-fonts.php:190
+msgid "Settings"
+msgstr "Настройки"
+
+#. Translators: %s Custom Elements Customizer Panel URL
+#: includes/customizer/panels.php:73
+msgid "Define your Custom Elements here and then customize them under <a href=\"%s\">Advanced Settings &rarr; Custom Elements</a>."
+msgstr "Укажите здесь свои пользовательские элементы, а затем настройте их в разделе <a href=\"%s\">Дополнительные настройки &rarr; Пользовательские элементы</a>."
+
+#: includes/customizer/panels.php:59
+msgid "Advanced Settings"
+msgstr "Дополнительные настройки"
+
+#. translators: 1. Name, 2. Time
+#: includes/class-ogf-notifications.php:228
+msgid "You have been using <strong>%1$s</strong> for %2$s now! Could you please do me a BIG favor and give it a 5-star rating on WordPress to help us spread the word and boost our motivation?"
+msgstr "Вы использовали <strong>%1$s</strong> %2$s! Не могли бы вы оказать БОЛЬШУЮ помощь, поставив в рейтинге на WordPress 5 звёзд, чтобы помочь нам распространить плагин и повысить нашу мотивацию?"
+
+#: includes/customizer/panels.php:49
+msgid "Basic Settings"
+msgstr "Основные настройки"
+
+#: includes/class-ogf-notifications.php:260
+msgid "Google Fonts for WordPress"
+msgstr "Шрифты Google для WordPress"
+
+#: includes/customizer/settings.php:214
+msgid "If your choices are not displaying correctly, check this box."
+msgstr "Если то,что вы выбрали, отображается неправильно, установите этот флажок."
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/olympus-google-fonts/"
+msgstr "https://ru.wordpress.org/plugins/olympus-google-fonts/"
+
+#: includes/customizer/controls/class-ogf-customize-typography-control.php:205
+#: includes/customizer/controls/class-ogf-customize-typography-control.php:222
+#: includes/customizer/controls/class-ogf-customize-typography-control.php:232
+#: includes/customizer/controls/class-ogf-customize-typography-control.php:246
+#: includes/customizer/controls/class-ogf-customize-typography-control.php:260
+#: includes/functions.php:321 blocks/dist/blocks.build.js:1
+#: blocks/src/google-fonts/edit.js:148
+msgid "- Default -"
+msgstr "- По умолчанию -"
+
+#: includes/class-ogf-notifications.php:224
+msgid "Are you enjoying using Google Fonts?"
+msgstr "Вам нравится использовать шрифты Google?"
+
+#: includes/class-ogf-notifications.php:233
+msgid "Leave a Review"
+msgstr "Оставить отзыв"
+
+#: includes/class-ogf-notifications.php:234
+msgid "No thanks / I already have"
+msgstr "Нет, спасибо, или я уже оставил(а)"
+
+#: includes/customizer/controls/class-ogf-customize-typography-control.php:248
+msgid "Italic"
+msgstr "Курсив"
+
+#: includes/customizer/controls/class-ogf-customize-typography-control.php:234
+#: includes/functions.php:328 blocks/dist/blocks.build.js:1
+#: blocks/src/google-fonts/edit.js:155
+msgid "Bold"
+msgstr "Жирный"
+
+#: includes/functions.php:330 blocks/dist/blocks.build.js:1
+#: blocks/src/google-fonts/edit.js:157
+msgid "Ultra Bold"
+msgstr "Ультра-жирный"
+
+#: includes/customizer/controls/class-ogf-customize-typography-control.php:51
+#: blocks/dist/blocks.build.js:1 blocks/src/google-fonts/edit.js:283
+msgid "Line Height"
+msgstr "Высота строк"
+
+#: includes/functions.php:329 blocks/dist/blocks.build.js:1
+#: blocks/src/google-fonts/edit.js:156
+msgid "Extra Bold"
+msgstr "Сверхжирный"
+
+#: includes/functions.php:323 blocks/dist/blocks.build.js:1
+#: blocks/src/google-fonts/edit.js:150
+msgid "Extra Light"
+msgstr "Сверхсветлый"
+
+#. translators: Number of years
+#: includes/class-ogf-notifications.php:83
+msgid "a year"
+msgid_plural "%s years"
+msgstr[0] "%d год"
+msgstr[1] "%d года"
+msgstr[2] "%d лет"
+
+#: includes/customizer/settings.php:210
+msgid "Force Styles?"
+msgstr "Сбросить стили?"
+
+#. translators: Number of weeks
+#: includes/class-ogf-notifications.php:89
+msgid "a week"
+msgid_plural "%s weeks"
+msgstr[0] "неделя"
+msgstr[1] ""
+msgstr[2] ""

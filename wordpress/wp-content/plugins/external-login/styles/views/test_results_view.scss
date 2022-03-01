@@ -1,0 +1,81 @@
+.exlog_modal {
+  display: none;
+  z-index: 999998;
+  position: fixed;
+  $distance_from_edge: 0;
+  top: $distance_from_edge; bottom: $distance_from_edge; left: $distance_from_edge; right: $distance_from_edge;
+  background-color: rgba(0,0,0,0.8);
+  color: red;
+
+  .exlog_test_results_inner_container {
+    position: fixed;
+
+    $distance_from_edge: 10%;
+    top: $distance_from_edge;
+    left: $distance_from_edge;
+    right: $distance_from_edge;
+    background-color: white;
+    overflow: scroll;
+
+    table {
+      width: 100%;
+
+
+      table, th, td {
+        border: double black 2px;
+      }
+
+      th {
+        text-align: center;
+        height: 50px;
+        background-color: #ffe6af;
+      }
+
+      td {
+        text-align: center;
+        height: 50px;
+      }
+    }
+
+    .error-message {
+      p {
+        text-align: center;
+      }
+    }
+  }
+
+  .exlog_close_button {
+    position: absolute;
+    z-index: 999999;
+    top: 10px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    cursor: pointer;
+    span {
+      pointer-events: none;
+    }
+  }
+
+  .exlog_test_fail {
+    display: none;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .exlog-test-results-container {
+    padding: 30px;
+    h2, p {
+      color: black;
+      text-align: center;
+    }
+  }
+}

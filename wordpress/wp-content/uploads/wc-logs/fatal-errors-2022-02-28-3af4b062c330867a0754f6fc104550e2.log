@@ -1,0 +1,330 @@
+2022-02-28T20:50:55+00:00 CRITICAL Uncaught WC_Data_Exception: Неверный адрес эл. почты для выставления счета in /var/www/html/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:856
+Stack trace:
+#0 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(1026): WC_Data->error()
+#1 /var/www/html/html/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(114): WC_Customer->set_billing_email()
+#2 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): WC_Customer_Data_Store_Session->read()
+#3 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(125): WC_Data_Store->read()
+#4 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(805): WC_Customer->__construct()
+#5 /var/www/html/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(2519): WooCommerce->initialize_cart()
+#6 /var/www/html/html/wp-content/plugins/woocommerce/inc в /var/www/html/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php на строке 856
+
+2022-02-28T20:55:17+00:00 CRITICAL Uncaught WC_Data_Exception: Неверный адрес эл. почты для выставления счета in /var/www/html/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:856
+Stack trace:
+#0 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(1026): WC_Data->error()
+#1 /var/www/html/html/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(114): WC_Customer->set_billing_email()
+#2 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): WC_Customer_Data_Store_Session->read()
+#3 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(125): WC_Data_Store->read()
+#4 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(805): WC_Customer->__construct()
+#5 /var/www/html/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(2519): WooCommerce->initialize_cart()
+#6 /var/www/html/html/wp-content/plugins/woocommerce/inc в /var/www/html/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php на строке 856
+
+2022-02-28T20:55:17+00:00 CRITICAL Uncaught WC_Data_Exception: Неверный адрес эл. почты для выставления счета in /var/www/html/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:856
+Stack trace:
+#0 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(1026): WC_Data->error()
+#1 /var/www/html/html/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(114): WC_Customer->set_billing_email()
+#2 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): WC_Customer_Data_Store_Session->read()
+#3 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(125): WC_Data_Store->read()
+#4 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(805): WC_Customer->__construct()
+#5 /var/www/html/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(2519): WooCommerce->initialize_cart()
+#6 /var/www/html/html/wp-content/plugins/woocommerce/inc в /var/www/html/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php на строке 856
+
+2022-02-28T20:56:17+00:00 CRITICAL Uncaught WC_Data_Exception: Неверный адрес эл. почты для выставления счета in /var/www/html/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:856
+Stack trace:
+#0 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(1026): WC_Data->error()
+#1 /var/www/html/html/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(114): WC_Customer->set_billing_email()
+#2 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): WC_Customer_Data_Store_Session->read()
+#3 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(125): WC_Data_Store->read()
+#4 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(805): WC_Customer->__construct()
+#5 /var/www/html/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(2519): WooCommerce->initialize_cart()
+#6 /var/www/html/html/wp-content/plugins/woocommerce/inc в /var/www/html/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php на строке 856
+
+2022-02-28T20:57:17+00:00 CRITICAL Uncaught WC_Data_Exception: Неверный адрес эл. почты для выставления счета in /var/www/html/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:856
+Stack trace:
+#0 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(1026): WC_Data->error()
+#1 /var/www/html/html/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(114): WC_Customer->set_billing_email()
+#2 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): WC_Customer_Data_Store_Session->read()
+#3 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(125): WC_Data_Store->read()
+#4 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(805): WC_Customer->__construct()
+#5 /var/www/html/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(2519): WooCommerce->initialize_cart()
+#6 /var/www/html/html/wp-content/plugins/woocommerce/inc в /var/www/html/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php на строке 856
+
+2022-02-28T20:58:17+00:00 CRITICAL Uncaught WC_Data_Exception: Неверный адрес эл. почты для выставления счета in /var/www/html/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:856
+Stack trace:
+#0 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(1026): WC_Data->error()
+#1 /var/www/html/html/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(114): WC_Customer->set_billing_email()
+#2 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): WC_Customer_Data_Store_Session->read()
+#3 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(125): WC_Data_Store->read()
+#4 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(805): WC_Customer->__construct()
+#5 /var/www/html/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(2519): WooCommerce->initialize_cart()
+#6 /var/www/html/html/wp-content/plugins/woocommerce/inc в /var/www/html/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php на строке 856
+
+2022-02-28T20:59:17+00:00 CRITICAL Uncaught WC_Data_Exception: Неверный адрес эл. почты для выставления счета in /var/www/html/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:856
+Stack trace:
+#0 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(1026): WC_Data->error()
+#1 /var/www/html/html/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(114): WC_Customer->set_billing_email()
+#2 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): WC_Customer_Data_Store_Session->read()
+#3 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(125): WC_Data_Store->read()
+#4 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(805): WC_Customer->__construct()
+#5 /var/www/html/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(2519): WooCommerce->initialize_cart()
+#6 /var/www/html/html/wp-content/plugins/woocommerce/inc в /var/www/html/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php на строке 856
+
+2022-02-28T21:00:18+00:00 CRITICAL Uncaught WC_Data_Exception: Неверный адрес эл. почты для выставления счета in /var/www/html/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:856
+Stack trace:
+#0 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(1026): WC_Data->error()
+#1 /var/www/html/html/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(114): WC_Customer->set_billing_email()
+#2 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): WC_Customer_Data_Store_Session->read()
+#3 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(125): WC_Data_Store->read()
+#4 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(805): WC_Customer->__construct()
+#5 /var/www/html/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(2519): WooCommerce->initialize_cart()
+#6 /var/www/html/html/wp-content/plugins/woocommerce/inc в /var/www/html/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php на строке 856
+
+2022-02-28T21:01:17+00:00 CRITICAL Uncaught WC_Data_Exception: Неверный адрес эл. почты для выставления счета in /var/www/html/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:856
+Stack trace:
+#0 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(1026): WC_Data->error()
+#1 /var/www/html/html/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(114): WC_Customer->set_billing_email()
+#2 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): WC_Customer_Data_Store_Session->read()
+#3 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(125): WC_Data_Store->read()
+#4 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(805): WC_Customer->__construct()
+#5 /var/www/html/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(2519): WooCommerce->initialize_cart()
+#6 /var/www/html/html/wp-content/plugins/woocommerce/inc в /var/www/html/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php на строке 856
+
+2022-02-28T21:02:17+00:00 CRITICAL Uncaught WC_Data_Exception: Неверный адрес эл. почты для выставления счета in /var/www/html/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:856
+Stack trace:
+#0 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(1026): WC_Data->error()
+#1 /var/www/html/html/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(114): WC_Customer->set_billing_email()
+#2 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): WC_Customer_Data_Store_Session->read()
+#3 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(125): WC_Data_Store->read()
+#4 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(805): WC_Customer->__construct()
+#5 /var/www/html/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(2519): WooCommerce->initialize_cart()
+#6 /var/www/html/html/wp-content/plugins/woocommerce/inc в /var/www/html/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php на строке 856
+
+2022-02-28T21:03:17+00:00 CRITICAL Uncaught WC_Data_Exception: Неверный адрес эл. почты для выставления счета in /var/www/html/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:856
+Stack trace:
+#0 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(1026): WC_Data->error()
+#1 /var/www/html/html/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(114): WC_Customer->set_billing_email()
+#2 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): WC_Customer_Data_Store_Session->read()
+#3 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(125): WC_Data_Store->read()
+#4 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(805): WC_Customer->__construct()
+#5 /var/www/html/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(2519): WooCommerce->initialize_cart()
+#6 /var/www/html/html/wp-content/plugins/woocommerce/inc в /var/www/html/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php на строке 856
+
+2022-02-28T21:04:17+00:00 CRITICAL Uncaught WC_Data_Exception: Неверный адрес эл. почты для выставления счета in /var/www/html/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:856
+Stack trace:
+#0 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(1026): WC_Data->error()
+#1 /var/www/html/html/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(114): WC_Customer->set_billing_email()
+#2 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): WC_Customer_Data_Store_Session->read()
+#3 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(125): WC_Data_Store->read()
+#4 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(805): WC_Customer->__construct()
+#5 /var/www/html/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(2519): WooCommerce->initialize_cart()
+#6 /var/www/html/html/wp-content/plugins/woocommerce/inc в /var/www/html/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php на строке 856
+
+2022-02-28T21:05:17+00:00 CRITICAL Uncaught WC_Data_Exception: Неверный адрес эл. почты для выставления счета in /var/www/html/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:856
+Stack trace:
+#0 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(1026): WC_Data->error()
+#1 /var/www/html/html/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(114): WC_Customer->set_billing_email()
+#2 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): WC_Customer_Data_Store_Session->read()
+#3 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(125): WC_Data_Store->read()
+#4 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(805): WC_Customer->__construct()
+#5 /var/www/html/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(2519): WooCommerce->initialize_cart()
+#6 /var/www/html/html/wp-content/plugins/woocommerce/inc в /var/www/html/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php на строке 856
+
+2022-02-28T21:06:17+00:00 CRITICAL Uncaught WC_Data_Exception: Неверный адрес эл. почты для выставления счета in /var/www/html/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:856
+Stack trace:
+#0 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(1026): WC_Data->error()
+#1 /var/www/html/html/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(114): WC_Customer->set_billing_email()
+#2 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): WC_Customer_Data_Store_Session->read()
+#3 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(125): WC_Data_Store->read()
+#4 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(805): WC_Customer->__construct()
+#5 /var/www/html/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(2519): WooCommerce->initialize_cart()
+#6 /var/www/html/html/wp-content/plugins/woocommerce/inc в /var/www/html/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php на строке 856
+
+2022-02-28T21:07:17+00:00 CRITICAL Uncaught WC_Data_Exception: Неверный адрес эл. почты для выставления счета in /var/www/html/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:856
+Stack trace:
+#0 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(1026): WC_Data->error()
+#1 /var/www/html/html/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(114): WC_Customer->set_billing_email()
+#2 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): WC_Customer_Data_Store_Session->read()
+#3 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(125): WC_Data_Store->read()
+#4 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(805): WC_Customer->__construct()
+#5 /var/www/html/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(2519): WooCommerce->initialize_cart()
+#6 /var/www/html/html/wp-content/plugins/woocommerce/inc в /var/www/html/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php на строке 856
+
+2022-02-28T21:08:17+00:00 CRITICAL Uncaught WC_Data_Exception: Неверный адрес эл. почты для выставления счета in /var/www/html/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:856
+Stack trace:
+#0 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(1026): WC_Data->error()
+#1 /var/www/html/html/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(114): WC_Customer->set_billing_email()
+#2 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): WC_Customer_Data_Store_Session->read()
+#3 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(125): WC_Data_Store->read()
+#4 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(805): WC_Customer->__construct()
+#5 /var/www/html/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(2519): WooCommerce->initialize_cart()
+#6 /var/www/html/html/wp-content/plugins/woocommerce/inc в /var/www/html/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php на строке 856
+
+2022-02-28T21:09:17+00:00 CRITICAL Uncaught WC_Data_Exception: Неверный адрес эл. почты для выставления счета in /var/www/html/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:856
+Stack trace:
+#0 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(1026): WC_Data->error()
+#1 /var/www/html/html/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(114): WC_Customer->set_billing_email()
+#2 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): WC_Customer_Data_Store_Session->read()
+#3 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(125): WC_Data_Store->read()
+#4 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(805): WC_Customer->__construct()
+#5 /var/www/html/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(2519): WooCommerce->initialize_cart()
+#6 /var/www/html/html/wp-content/plugins/woocommerce/inc в /var/www/html/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php на строке 856
+
+2022-02-28T21:10:17+00:00 CRITICAL Uncaught WC_Data_Exception: Неверный адрес эл. почты для выставления счета in /var/www/html/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:856
+Stack trace:
+#0 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(1026): WC_Data->error()
+#1 /var/www/html/html/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(114): WC_Customer->set_billing_email()
+#2 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): WC_Customer_Data_Store_Session->read()
+#3 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(125): WC_Data_Store->read()
+#4 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(805): WC_Customer->__construct()
+#5 /var/www/html/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(2519): WooCommerce->initialize_cart()
+#6 /var/www/html/html/wp-content/plugins/woocommerce/inc в /var/www/html/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php на строке 856
+
+2022-02-28T21:11:17+00:00 CRITICAL Uncaught WC_Data_Exception: Неверный адрес эл. почты для выставления счета in /var/www/html/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:856
+Stack trace:
+#0 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(1026): WC_Data->error()
+#1 /var/www/html/html/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(114): WC_Customer->set_billing_email()
+#2 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): WC_Customer_Data_Store_Session->read()
+#3 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(125): WC_Data_Store->read()
+#4 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(805): WC_Customer->__construct()
+#5 /var/www/html/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(2519): WooCommerce->initialize_cart()
+#6 /var/www/html/html/wp-content/plugins/woocommerce/inc в /var/www/html/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php на строке 856
+
+2022-02-28T21:12:17+00:00 CRITICAL Uncaught WC_Data_Exception: Неверный адрес эл. почты для выставления счета in /var/www/html/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:856
+Stack trace:
+#0 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(1026): WC_Data->error()
+#1 /var/www/html/html/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(114): WC_Customer->set_billing_email()
+#2 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): WC_Customer_Data_Store_Session->read()
+#3 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(125): WC_Data_Store->read()
+#4 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(805): WC_Customer->__construct()
+#5 /var/www/html/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(2519): WooCommerce->initialize_cart()
+#6 /var/www/html/html/wp-content/plugins/woocommerce/inc в /var/www/html/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php на строке 856
+
+2022-02-28T21:13:17+00:00 CRITICAL Uncaught WC_Data_Exception: Неверный адрес эл. почты для выставления счета in /var/www/html/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:856
+Stack trace:
+#0 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(1026): WC_Data->error()
+#1 /var/www/html/html/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(114): WC_Customer->set_billing_email()
+#2 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): WC_Customer_Data_Store_Session->read()
+#3 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(125): WC_Data_Store->read()
+#4 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(805): WC_Customer->__construct()
+#5 /var/www/html/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(2519): WooCommerce->initialize_cart()
+#6 /var/www/html/html/wp-content/plugins/woocommerce/inc в /var/www/html/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php на строке 856
+
+2022-02-28T21:14:17+00:00 CRITICAL Uncaught WC_Data_Exception: Неверный адрес эл. почты для выставления счета in /var/www/html/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:856
+Stack trace:
+#0 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(1026): WC_Data->error()
+#1 /var/www/html/html/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(114): WC_Customer->set_billing_email()
+#2 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): WC_Customer_Data_Store_Session->read()
+#3 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(125): WC_Data_Store->read()
+#4 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(805): WC_Customer->__construct()
+#5 /var/www/html/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(2519): WooCommerce->initialize_cart()
+#6 /var/www/html/html/wp-content/plugins/woocommerce/inc в /var/www/html/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php на строке 856
+
+2022-02-28T21:15:17+00:00 CRITICAL Uncaught WC_Data_Exception: Неверный адрес эл. почты для выставления счета in /var/www/html/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:856
+Stack trace:
+#0 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(1026): WC_Data->error()
+#1 /var/www/html/html/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(114): WC_Customer->set_billing_email()
+#2 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): WC_Customer_Data_Store_Session->read()
+#3 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(125): WC_Data_Store->read()
+#4 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(805): WC_Customer->__construct()
+#5 /var/www/html/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(2519): WooCommerce->initialize_cart()
+#6 /var/www/html/html/wp-content/plugins/woocommerce/inc в /var/www/html/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php на строке 856
+
+2022-02-28T21:16:17+00:00 CRITICAL Uncaught WC_Data_Exception: Неверный адрес эл. почты для выставления счета in /var/www/html/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:856
+Stack trace:
+#0 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(1026): WC_Data->error()
+#1 /var/www/html/html/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(114): WC_Customer->set_billing_email()
+#2 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): WC_Customer_Data_Store_Session->read()
+#3 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(125): WC_Data_Store->read()
+#4 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(805): WC_Customer->__construct()
+#5 /var/www/html/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(2519): WooCommerce->initialize_cart()
+#6 /var/www/html/html/wp-content/plugins/woocommerce/inc в /var/www/html/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php на строке 856
+
+2022-02-28T21:17:17+00:00 CRITICAL Uncaught WC_Data_Exception: Неверный адрес эл. почты для выставления счета in /var/www/html/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:856
+Stack trace:
+#0 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(1026): WC_Data->error()
+#1 /var/www/html/html/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(114): WC_Customer->set_billing_email()
+#2 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): WC_Customer_Data_Store_Session->read()
+#3 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(125): WC_Data_Store->read()
+#4 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(805): WC_Customer->__construct()
+#5 /var/www/html/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(2519): WooCommerce->initialize_cart()
+#6 /var/www/html/html/wp-content/plugins/woocommerce/inc в /var/www/html/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php на строке 856
+
+2022-02-28T21:18:17+00:00 CRITICAL Uncaught WC_Data_Exception: Неверный адрес эл. почты для выставления счета in /var/www/html/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:856
+Stack trace:
+#0 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(1026): WC_Data->error()
+#1 /var/www/html/html/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(114): WC_Customer->set_billing_email()
+#2 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): WC_Customer_Data_Store_Session->read()
+#3 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(125): WC_Data_Store->read()
+#4 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(805): WC_Customer->__construct()
+#5 /var/www/html/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(2519): WooCommerce->initialize_cart()
+#6 /var/www/html/html/wp-content/plugins/woocommerce/inc в /var/www/html/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php на строке 856
+
+2022-02-28T21:19:17+00:00 CRITICAL Uncaught WC_Data_Exception: Неверный адрес эл. почты для выставления счета in /var/www/html/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:856
+Stack trace:
+#0 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(1026): WC_Data->error()
+#1 /var/www/html/html/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(114): WC_Customer->set_billing_email()
+#2 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): WC_Customer_Data_Store_Session->read()
+#3 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(125): WC_Data_Store->read()
+#4 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(805): WC_Customer->__construct()
+#5 /var/www/html/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(2519): WooCommerce->initialize_cart()
+#6 /var/www/html/html/wp-content/plugins/woocommerce/inc в /var/www/html/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php на строке 856
+
+2022-02-28T21:20:18+00:00 CRITICAL Uncaught WC_Data_Exception: Неверный адрес эл. почты для выставления счета in /var/www/html/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:856
+Stack trace:
+#0 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(1026): WC_Data->error()
+#1 /var/www/html/html/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(114): WC_Customer->set_billing_email()
+#2 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): WC_Customer_Data_Store_Session->read()
+#3 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(125): WC_Data_Store->read()
+#4 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(805): WC_Customer->__construct()
+#5 /var/www/html/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(2519): WooCommerce->initialize_cart()
+#6 /var/www/html/html/wp-content/plugins/woocommerce/inc в /var/www/html/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php на строке 856
+
+2022-02-28T21:22:18+00:00 CRITICAL Uncaught WC_Data_Exception: Неверный адрес эл. почты для выставления счета in /var/www/html/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:856
+Stack trace:
+#0 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(1026): WC_Data->error()
+#1 /var/www/html/html/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(114): WC_Customer->set_billing_email()
+#2 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): WC_Customer_Data_Store_Session->read()
+#3 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(125): WC_Data_Store->read()
+#4 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(805): WC_Customer->__construct()
+#5 /var/www/html/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(2519): WooCommerce->initialize_cart()
+#6 /var/www/html/html/wp-content/plugins/woocommerce/inc в /var/www/html/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php на строке 856
+
+2022-02-28T21:24:19+00:00 CRITICAL Uncaught WC_Data_Exception: Неверный адрес эл. почты для выставления счета in /var/www/html/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:856
+Stack trace:
+#0 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(1026): WC_Data->error()
+#1 /var/www/html/html/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(114): WC_Customer->set_billing_email()
+#2 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): WC_Customer_Data_Store_Session->read()
+#3 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(125): WC_Data_Store->read()
+#4 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(805): WC_Customer->__construct()
+#5 /var/www/html/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(2519): WooCommerce->initialize_cart()
+#6 /var/www/html/html/wp-content/plugins/woocommerce/inc в /var/www/html/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php на строке 856
+
+2022-02-28T21:26:20+00:00 CRITICAL Uncaught WC_Data_Exception: Неверный адрес эл. почты для выставления счета in /var/www/html/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:856
+Stack trace:
+#0 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(1026): WC_Data->error()
+#1 /var/www/html/html/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(114): WC_Customer->set_billing_email()
+#2 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): WC_Customer_Data_Store_Session->read()
+#3 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(125): WC_Data_Store->read()
+#4 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(805): WC_Customer->__construct()
+#5 /var/www/html/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(2519): WooCommerce->initialize_cart()
+#6 /var/www/html/html/wp-content/plugins/woocommerce/inc в /var/www/html/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php на строке 856
+
+2022-02-28T21:28:21+00:00 CRITICAL Uncaught WC_Data_Exception: Неверный адрес эл. почты для выставления счета in /var/www/html/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:856
+Stack trace:
+#0 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(1026): WC_Data->error()
+#1 /var/www/html/html/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(114): WC_Customer->set_billing_email()
+#2 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): WC_Customer_Data_Store_Session->read()
+#3 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(125): WC_Data_Store->read()
+#4 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(805): WC_Customer->__construct()
+#5 /var/www/html/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(2519): WooCommerce->initialize_cart()
+#6 /var/www/html/html/wp-content/plugins/woocommerce/inc в /var/www/html/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php на строке 856
+
+2022-02-28T21:30:22+00:00 CRITICAL Uncaught WC_Data_Exception: Неверный адрес эл. почты для выставления счета in /var/www/html/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:856
+Stack trace:
+#0 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(1026): WC_Data->error()
+#1 /var/www/html/html/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(114): WC_Customer->set_billing_email()
+#2 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): WC_Customer_Data_Store_Session->read()
+#3 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(125): WC_Data_Store->read()
+#4 /var/www/html/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(805): WC_Customer->__construct()
+#5 /var/www/html/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(2519): WooCommerce->initialize_cart()
+#6 /var/www/html/html/wp-content/plugins/woocommerce/inc в /var/www/html/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php на строке 856
+
