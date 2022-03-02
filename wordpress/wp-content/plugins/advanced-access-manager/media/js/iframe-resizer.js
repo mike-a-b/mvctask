@@ -1,1 +1,0 @@
-(()=>{window.onmessage=(e)=>{if (e.data.hasOwnProperty("frameHeight")){document.getElementById("aam-iframe").style.height = `${e.data.frameHeight + 15}px`;}}})()

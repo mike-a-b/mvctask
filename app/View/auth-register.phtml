@@ -27,7 +27,7 @@
             
             <p class="auth-subtitle-error">Все поля должны быть заполнены</p>
             
-            <form action="/registration" method="post" class="needs-validation was-validated" >
+            <form action="/register/check" method="post" class="needs-validation was-validated" >
                 <div class="form-group position-relative has-icon-left mb-4" >
                     
                     <input type="text" id= "email" name="email" class="form-control form-control-xl" placeholder="Почта" required>
@@ -38,7 +38,7 @@
                 </div>
                 <div class="form-group position-relative has-icon-left mb-4">
                     
-                    <input type="text" id="username" name="username" class="form-control form-control-xl" placeholder="Имя пользователя"
+                    <input type="text" id="tel" name="tel" class="form-control form-control-xl" placeholder="Номер телефона"
                             required>
                     
                     <div class="form-control-icon">
@@ -58,6 +58,12 @@
                         <i class="bi bi-shield-lock"></i>
                     </div>
                 </div>
+                <div class="form-check form-check-lg d-flex align-items-end">
+                    <input class="form-check-input me-2" name="privacy" type="checkbox" value="false" id="flexCheckDefault" required>
+                    <label class="form-check-label text-gray-600" for="flexCheckDefault">
+                        Я даю согласие на обработку персональных данных и принимаю условия пользовательского соглашения
+                    </label>
+                </div>
                 <button type="submit" class="btn btn-primary btn-block btn-lg shadow-lg ">Зарегистрироваться</button>
             </form>
             <div class="text-center mt-5 text-lg fs-4">
@@ -67,7 +73,7 @@
 
                 <div class="footer clearfix mb-0 text-muted">
                     <div class="float-start" style="width:100%">
-                        <p style="text-align: center; margin:0; padding: 0;"> <span class="">КОМПАНИЯ</span></p>
+                        <p style="text-align: center; margin:0; padding: 0;"> <span class="">© ООО «Парус» 2022</span></p>
                         <p style="text-align: center">2020</p>
                     </div>
                     <div class="float-end" style="width:100%">
@@ -95,6 +101,9 @@
 
     </div>
 <script src="assets/js/validate.js"></script>
+<script src="assets/vendors/toastify/toastify.js"></script>
+<script src="assets/js/jquery.js"></script>
+<script></script>
 </body>
 
 </html>

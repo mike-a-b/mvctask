@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Вход на сайт - Бочаров М. dashboard</title>
+    <title>Вход в личный кабинет пользователя</title>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/bootstrap.css">
     <link rel="stylesheet" href="assets/vendors/bootstrap-icons/bootstrap-icons.css">
@@ -23,23 +23,24 @@
 <!--                <a href="/login"></a>-->
             </div>
             <h1 class="auth-title">Вход на сайт</h1>
-            <p class="auth-subtitle">Введите данные для входа, полученные при регистрации</p>
+            <p class="auth-subtitle">Введите данные для входа, номер телефона и пароль, полученный по смс</p>
             
             
-            <form action="/login" method="post">
+            <form action="/login/auth" method="post">
                 
                 <div class="form-group position-relative has-icon-left mb-4">
                     
-                    <input type="text" name="username" id="username" class="form-control form-control-xl"
-                           placeholder="Имя пользователя">
+                    <input type="text" name="tel" id="tel" class="form-control form-control-xl"
+                           placeholder="Номер телефона" required>
                     
                     <div class="form-control-icon">
                         <i class="bi bi-person"></i>
                     </div>
                 </div>
-                <div class="form-group position-relative has-icon-left mb-4">
+                <button type="button" class="btn btn-primary btn-block btn-lg shadow-lg info">Отправить СМС для входа</button>
+                <div class="form-group position-relative has-icon-left mb-4 mt-4">
                     
-                    <input type="password" name="password" id="password" class="form-control form-control-xl" placeholder="Пароль">
+                    <input type="password" name="password" id="password" class="form-control form-control-xl" placeholder="Пароль" required>
                     
                     <div class="form-control-icon">
                         <i class="bi bi-shield-lock"></i>
@@ -54,38 +55,39 @@
                 
                 <button type="submit" class="btn btn-primary btn-block btn-lg shadow-lg">Войти</button>
             </form>
-            <div class="text-center text-lg mt-4 fs-4">
-                <p class="text-gray-600">
-                    войти через свой аккаунт
-                </p>
-            </div>
+<!--            <div class="text-center text-lg mt-4 fs-4">-->
+<!--                <p class="text-gray-600">-->
+<!--                    войти через свой аккаунт-->
+<!--                </p>-->
+<!--            </div>-->
             <div class="text-center text-lg fs-4">
-                <p class="text-gray-600 accounts">
-                    <a id="vkbutton" href="/auth/vkontakte" class="font-bold"></a>
-                    <a id="facebookbutton" href="#" class="font-bold"></a>
-                    <a id="instagrambutton" href="#" class="font-bold"></a>
-                    <a id="goooglebutton" href="#" class="font-bold"></a>
-                    <a id="youtubebutton" href="#" class="font-bold"></a>
-                </p>
+<!--                <p class="text-gray-600 accounts">-->
+<!--                    <a id="vkbutton" href="/auth/vkontakte" class="font-bold"></a>-->
+<!--                    <a id="facebookbutton" href="#" class="font-bold"></a>-->
+<!--                    <a id="instagrambutton" href="#" class="font-bold"></a>-->
+<!--                    <a id="goooglebutton" href="#" class="font-bold"></a>-->
+<!--                    <a id="youtubebutton" href="#" class="font-bold"></a>-->
+<!--                </p>-->
 
-                <p class="text-gray-600">Нет аккаунта? <a href="/registration" class="font-bold">Регистрация</a>.</p>
-                <p><a class="font-bold" href="forgotpassword">Забыли пароль?</a>.</p>
+                <p class="text-gray-600">Заполняя форму, Вы даете
+                    согласие на обработку персональных данных и принимаете условия  <a href="/privacy.phtml" class="font-bold">пользовательского соглашения</a>.</p>
+                <p class="text-gray-600">Нет аккаунта? <a href="/register" class="font-bold">Регистрация</a>.</p>
             </div>
             <footer>
 
                 <div class="footer clearfix mb-0 text-muted">
                     <div class="float-start" style="width:100%">
-                        <p style="text-align: center; margin:0; padding: 0;"> <span class="">КОМАНИЯ</span></p>
-                        <p style="text-align: center">2020</p>
+                        <p style="text-align: center; margin:0; padding: 0;"> <span class="">© ООО «Парус» 2022</span></p>
+                        <p style="text-align: center"></p>
                     </div>
                     <div class="float-end" style="width:100%">
                         <p style="text-align: center; margin:0; padding: 0;"> <span class="">Контакты</span></p>
                         <ul style="list-style-type: none; list-style: none; text-align: center;">
                             <li>
-                                <a href="www.alphsens.com"> </a>
+                                <a href="#"> </a>
                             </li>
                             <li>
-                                <a href="mailto:info@alphasens.com"> </a>
+                                <a href="mailto:info@"> </a>
                             </li>
                         </ul>
 
@@ -102,7 +104,12 @@
 </div>
 
     </div>
+
 <script src="assets/js/validate.js"></script>
+<script src="assets/js/jquery.js"></script>
+<script src="assets/vendors/toastify/toastify.js"></script>
+<script>
+</script>
 </body>
 
 </html>

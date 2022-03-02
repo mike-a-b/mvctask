@@ -4,7 +4,7 @@ namespace App\Controller;
 use App\Model\User;
 use Base\AbstractController;
 
-class Login extends AbstractController
+class Register extends AbstractController
 {
     public function index()
     {
@@ -12,9 +12,9 @@ class Login extends AbstractController
             $this->redirect('/i.phtml');
         }
         return $this->view->render(
-            'auth-login.phtml',
+            'auth-register.phtml',
             [
-                'title' => 'Вход в личный кабинет',
+                'title' => 'Регистрация клиента',
                 'user' => $this->getUser(),
             ]
         );
@@ -39,18 +39,8 @@ class Login extends AbstractController
         $this->redirect('/blog');
     }
 
-    public function register()
+    public function check()
     {
-        if ($this->getUser()) {
-            $this->redirect('/i.phtml');
-        }
-        return $this->view->render(
-            'auth-register.phtml',
-            [
-                'title' => 'Регистрация пользователя',
-                'user' => $this->getUser(),
-            ]
-        );
 //        $name = (string) $_POST['name'];
 //        $email = (string) $_POST['email'];
 //        $password = (string) $_POST['password'];
