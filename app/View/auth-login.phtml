@@ -37,10 +37,13 @@
                         <i class="bi bi-person"></i>
                     </div>
                 </div>
-                <button type="button" class="btn btn-primary btn-block btn-lg shadow-lg info">Отправить СМС для входа</button>
-                <div class="form-group position-relative has-icon-left mb-4 mt-4">
-                    
-                    <input type="password" name="password" id="password" class="form-control form-control-xl" placeholder="Пароль" required>
+                <input type="button" class="btn btn-primary btn-block btn-lg shadow-lg smssendbtn" value="Отправить СМС для входа" disabled>
+                <div id="smsmessage" class="text-center text-lg fs-4 mt-4">
+
+                </div>
+                <div class="form-group position-relative has-icon-left mb-4 ">
+
+                    <input type="password" name="password" id="password" class="form-control form-control-xl" placeholder="Пароль или СМС-код" required>
                     
                     <div class="form-control-icon">
                         <i class="bi bi-shield-lock"></i>
@@ -55,26 +58,12 @@
                 
                 <button type="submit" class="btn btn-primary btn-block btn-lg shadow-lg">Войти</button>
             </form>
-<!--            <div class="text-center text-lg mt-4 fs-4">-->
-<!--                <p class="text-gray-600">-->
-<!--                    войти через свой аккаунт-->
-<!--                </p>-->
-<!--            </div>-->
             <div class="text-center text-lg fs-4">
-<!--                <p class="text-gray-600 accounts">-->
-<!--                    <a id="vkbutton" href="/auth/vkontakte" class="font-bold"></a>-->
-<!--                    <a id="facebookbutton" href="#" class="font-bold"></a>-->
-<!--                    <a id="instagrambutton" href="#" class="font-bold"></a>-->
-<!--                    <a id="goooglebutton" href="#" class="font-bold"></a>-->
-<!--                    <a id="youtubebutton" href="#" class="font-bold"></a>-->
-<!--                </p>-->
-
                 <p class="text-gray-600">Заполняя форму, Вы даете
                     согласие на обработку персональных данных и принимаете условия  <a href="/privacy.phtml" class="font-bold">пользовательского соглашения</a>.</p>
                 <p class="text-gray-600">Нет аккаунта? <a href="/register" class="font-bold">Регистрация</a>.</p>
             </div>
             <footer>
-
                 <div class="footer clearfix mb-0 text-muted">
                     <div class="float-start" style="width:100%">
                         <p style="text-align: center; margin:0; padding: 0;"> <span class="">© ООО «Парус» 2022</span></p>
@@ -105,10 +94,39 @@
 
     </div>
 
-<script src="assets/js/validate.js"></script>
 <script src="assets/js/jquery.js"></script>
-<script src="assets/vendors/toastify/toastify.js"></script>
-<script>
+<script src="assets/js/maskedinput.js" type="text/javascript"></script>
+<script src="assets/js/validate.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $("#tel").mask("+7(999) 999-9999", {completed:function(){
+            console.log($("#tel").val());
+            $(".smssendbtn").prop('disabled', false);
+            }});
+    });
+    $(function(){
+        ajaxCreateSmsCode();
+    });
+
+    function ajaxCreateSmsCode()
+    {
+        $('.smssendbtn').on('click', function(){
+            let mobileN = $('#tel').val(); // считываем значение, если это форма регистрации
+            console.log(mobileN);
+
+            $.ajax({
+                url: '/login/smsSend',
+                type: 'POST',
+                data: { mobileNumber : mobileN },
+                dataType: 'json',
+                success: function(response){
+                    $('#smsmessage').text("На номер "+ mobileN + ' отправлено СМС с кодом входа'+response.code);
+                },
+
+            });
+
+        });
+    }
 </script>
 </body>
 

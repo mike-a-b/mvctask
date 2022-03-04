@@ -3,6 +3,7 @@
     "psr-4": {"App\\": "app/", "Base\\": "base/"}
   },
   "require": {
-    "components/jquery": "^3.6"
+    "components/jquery": "^3.6",
+    "ext-json": "*"
   }
 }

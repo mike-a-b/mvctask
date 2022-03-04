@@ -10,6 +10,7 @@ class User
     private $createdAt;
     private $password;
     private $email;
+    private $phone;
 
     public function __construct(array $data)
     {
@@ -17,6 +18,7 @@ class User
         $this->password = $data['password'];;
         $this->createdAt = $data['created_at'];
         $this->email = $data['email'];
+        $this->phone = $data['phone'];
     }
 
     public static function getByEmail(string $email)
@@ -26,6 +28,23 @@ class User
             "SELECT * fROM users WHERE email = :email",
             __METHOD__,
             [':email' => $email]
+        );
+        if (!$data) {
+            return null;
+        }
+
+        $user = new self($data);
+        $user->id = $data['id'];
+        return $user;
+    }
+
+    public static function getByPhone(string $phone)
+    {
+        $db = Db::getInstance();
+        $data = $db->fetchOne(
+            "SELECT * fROM users WHERE phone = :phone",
+            __METHOD__,
+            [':phone' => $phone]
         );
         if (!$data) {
             return null;
@@ -63,22 +82,23 @@ class User
         $db = Db::getInstance();
         $res = $db->exec(
             'INSERT INTO users (
-                    name, 
                     password, 
                     created_at,
-                    email
+                    email,
+                   phone
                     ) VALUES (
                     :name, 
                     :password, 
                     :created_at,
                     :email
+                    ,:phone
                 )',
             __FILE__,
             [
-                ':name' => $this->name,
                 ':password' => self::getPasswordHash($this->password),
                 ':created_at' => $this->createdAt,
                 ':email' => $this->email,
+                ':phone' =>$this->phone,
             ]
         );
 
@@ -150,6 +170,13 @@ class User
     public function getPassword()
     {
         return $this->password;
+    }
+    /**
+     * @return mixed
+     */
+    public function getPhone()
+    {
+        return $this->phone;
     }
 
     public function isAdmin(): bool

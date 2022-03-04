@@ -3,6 +3,7 @@ namespace App\Controller;
 
 use App\Model\User;
 use Base\AbstractController;
+use App\Model\SmsCode;
 
 class Login extends AbstractController
 {
@@ -39,49 +40,28 @@ class Login extends AbstractController
         $this->redirect('/blog');
     }
 
-    public function register()
+    public function smsSend()
     {
-        if ($this->getUser()) {
-            $this->redirect('/i.phtml');
+        header('Content-Type: application/json');
+        $rand = rand(1000, 9999);
+        if(isset($_POST['mobileNumber'])) {
+            $vowels = array("+", "(", ")", " ");
+            $mobileNumber = str_replace($vowels, "", $_POST['mobileNumber']);
+//            $result = file_get_contents('https://smsc.ru/sys/send.php?login=acidburn&psw=m1k31tm1k31t&phones=79689892109&mes=1234');
+            $code = new SmsCode();
+
+            //запись в бд текущего кода отправленного
+            echo json_encode([
+                'success' => 1,
+                'error' => 0,
+                'code' => $rand,
+            ]);
+        } else {
+            echo json_encode([
+                'success' => 0,
+                'error' => 1,
+                'code' => $rand,
+            ]);
         }
-        return $this->view->render(
-            'auth-register.phtml',
-            [
-                'title' => 'Регистрация пользователя',
-                'user' => $this->getUser(),
-            ]
-        );
-//        $name = (string) $_POST['name'];
-//        $email = (string) $_POST['email'];
-//        $password = (string) $_POST['password'];
-//        $password2 = (string) $_POST['password_2'];
-//
-//        if (!$name || !$password) {
-//            return 'Не заданы имя и пароль';
-//        }
-//
-//        if (!$email) {
-//            return 'Не задан email';
-//        }
-//
-//        if ($password !== $password2) {
-//            return 'Введенные пароли не совпадают';
-//        }
-//
-//        if (mb_strlen($password) < 5) {
-//            return 'Пароль слишком короткий';
-//        }
-//
-//        $userData = [
-//            'name' => $name,
-//            'created_at' => date('Y-m-d H:i:s'),
-//            'password' => $password,
-//            'email' => $email,
-//        ];
-//        $user = new User($userData);
-//        $user->save();
-//
-//        $this->session->authUser($user->getId());
-//        $this->redirect('/blog');
     }
 }
