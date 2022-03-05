@@ -9,11 +9,37 @@ class SmsCode
     private $mobileNumber;
     private $value;
     private $created_at;
-    private $isLogin;
 
-    public function __construct() {
-
+    public function __construct(array $data) {
+        $this->mobileNumber = $data['phone'];
+        $this->value = $data['value'];
+        $this->created_at = $data['created_at'];
     }
+
+    public function save() : int
+    {
+        $db = Db::getInstance();
+        $res = $db->exec(
+            'INSERT INTO smscodes (
+                    value,
+                      created_at,
+                      phone
+                    ) VALUES  (
+                               :value,
+                               :created_at,
+                               :phone
+                    )',
+            __FILE__,
+            [
+                ':created_at' => $this->created_at,
+                ':value' => $this->value,
+                ':phone'=>$this->mobileNumber
+            ]
+        );
+        $this->id  = $db->lastInsertId();
+        return $res;
+    }
+
     /**
      * @return mixed
      */

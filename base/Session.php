@@ -17,4 +17,10 @@ class Session
     {
         return $_SESSION['user_id'] ?? false;
     }
+
+    public function savelogin(string $phone, string $pass)
+    {
+        $_SESSION['phone'] = $phone;
+        $_SESSION['password'] = $pass;
+    }
 }

@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Регистрация - Бочаров М. dashboard</title>
+    <title><?=$this->title;?></title>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/bootstrap.css">
     <link rel="stylesheet" href="assets/vendors/bootstrap-icons/bootstrap-icons.css">
@@ -19,7 +19,7 @@
     <div class="col-lg-5 col-12">
         <div id="auth-left">
             <div class="auth-logo">
-                <p class="auth-title" id="logo">НАЗВАНИЕ</p>
+                <p class="auth-title" id="logo">ООО «Парус»</p>
 <!--                <a href="/login"><img src="#" alt="Logo"></a>-->
             </div>
             <h1 class="auth-title">Регистрация</h1>
@@ -27,7 +27,7 @@
             
             <p class="auth-subtitle-error">Все поля должны быть заполнены</p>
             
-            <form action="/register/check" method="post" class="needs-validation was-validated" >
+            <form action="/register/auth" method="post" class="needs-validation was-validated" >
                 <div class="form-group position-relative has-icon-left mb-4" >
                     
                     <input type="text" id= "email" name="email" class="form-control form-control-xl" placeholder="Почта" required>
@@ -74,16 +74,16 @@
                 <div class="footer clearfix mb-0 text-muted">
                     <div class="float-start" style="width:100%">
                         <p style="text-align: center; margin:0; padding: 0;"> <span class="">© ООО «Парус» 2022</span></p>
-                        <p style="text-align: center">2020</p>
+                        <p style="text-align: center"></p>
                     </div>
                     <div class="float-end" style="width:100%">
                         <p style="text-align: center; margin:0; padding: 0;"> <span class="">Контакты</span></p>
                         <ul style="list-style-type: none; list-style: none; text-align: center">
                             <li>
-                                <a href="www.alphsens.com"></a>
+                                <a href="#"></a>
                             </li>
                             <li>
-                                <a href="mailto:info@alphasens.com"></a>
+                                <a href="#"></a>
                             </li>
                         </ul>
 
@@ -98,12 +98,20 @@
         </div>
     </div>
 </div>
+</div>
 
-    </div>
+<script src="assets/js/jquery.js"></script>
+<script src="assets/js/maskedinput.js" type="text/javascript"></script>
 <script src="assets/js/validate.js"></script>
 <script src="assets/vendors/toastify/toastify.js"></script>
-<script src="assets/js/jquery.js"></script>
-<script></script>
+<script>
+    $(document).ready(function(){
+        $("#tel").mask("+7(999) 999-9999", {completed:function(){
+                console.log($("#tel").val());
+                $(".smssendbtn").prop('disabled', false);
+            }});
+    });
+</script>
 </body>
 
 </html>

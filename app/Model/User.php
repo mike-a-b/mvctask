@@ -11,6 +11,7 @@ class User
     private $password;
     private $email;
     private $phone;
+    private $active;
 
     public function __construct(array $data)
     {
@@ -19,6 +20,7 @@ class User
         $this->createdAt = $data['created_at'];
         $this->email = $data['email'];
         $this->phone = $data['phone'];
+        $this->status = $data['status'];
     }
 
     public static function getByEmail(string $email)
@@ -85,20 +87,19 @@ class User
                     password, 
                     created_at,
                     email,
-                   phone
+                    phone
                     ) VALUES (
-                    :name, 
                     :password, 
                     :created_at,
-                    :email
-                    ,:phone
+                    :email,
+                    :phone
                 )',
             __FILE__,
             [
                 ':password' => self::getPasswordHash($this->password),
                 ':created_at' => $this->createdAt,
                 ':email' => $this->email,
-                ':phone' =>$this->phone,
+                ':phone' =>$this->phone
             ]
         );
 

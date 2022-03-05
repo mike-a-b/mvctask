@@ -23,21 +23,18 @@ class Login extends AbstractController
 
     public function auth()
     {
-        $email = (string) $_POST['email'];
+        $phone = (string) $_POST['mobileNumber'];
         $password = (string) $_POST['password'];
+        $name = '';
+        $email = '';
 
-        $user = User::getByEmail($email);
-        if (!$user) {
-            return 'Неверный логин и пароль';
+        $isSaveLogin = (boolean) $_POST['savelogin'];
+        if($isSaveLogin)
+        {
+            $this->session->savelogin($phone, $password);
         }
 
-        if ($user->getPassword() !== User::getPasswordHash($password)) {
-            return 'Неверный логин и пароль';
-        }
-
-        $this->session->authUser($user->getId());
-
-        $this->redirect('/blog');
+        $this->redirect('/cabinet');
     }
 
     public function smsSend()
@@ -45,17 +42,25 @@ class Login extends AbstractController
         header('Content-Type: application/json');
         $rand = rand(1000, 9999);
         if(isset($_POST['mobileNumber'])) {
-            $vowels = array("+", "(", ")", " ");
+            $vowels = array("+", "(", ")", "-", " ");
             $mobileNumber = str_replace($vowels, "", $_POST['mobileNumber']);
-//            $result = file_get_contents('https://smsc.ru/sys/send.php?login=acidburn&psw=m1k31tm1k31t&phones=79689892109&mes=1234');
-            $code = new SmsCode();
-
+            $result = file_get_contents('https://smsc.ru/sys/send.php?login='.'acidburn'.
+                '&psw='.'m1k31tm1k31t'.'&phones='.$mobileNumber.'&mes='.
+                'CODE VREMYAITB.RU: '. $rand );
+            $smsData = [
+                'created_at' => date('Y-m-d H:i:s'),
+                'value' => $rand,
+                'phone' => $mobileNumber,
+            ];
+            $code = new SmsCode($smsData);
             //запись в бд текущего кода отправленного
-            echo json_encode([
-                'success' => 1,
-                'error' => 0,
-                'code' => $rand,
-            ]);
+            if($code->save()) {
+                echo json_encode([
+                    'success' => 1,
+                    'error' => 0,
+                    'code' => $rand,
+                ]);
+            }
         } else {
             echo json_encode([
                 'success' => 0,

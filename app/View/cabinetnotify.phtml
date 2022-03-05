@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Настройка уведомлений</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+
+    <link rel="stylesheet" href="assets/vendors/toastify/toastify.css">
+    <link href="https://unpkg.com/filepond/dist/filepond.css" rel="stylesheet">
+    <link href="https://unpkg.com/filepond-plugin-image-preview/dist/filepond-plugin-image-preview.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/vendors/perfect-scrollbar/perfect-scrollbar.css">
+    <link rel="stylesheet" href="assets/vendors/bootstrap-icons/bootstrap-icons.css">
+    <link rel="stylesheet" href="assets/css/app.css">
+    <link rel="shortcut icon" href="assets/images/favicon.svg" type="image/x-icon">
+</head>
+
+<body>
+<div id="app">
+    <div id="sidebar" class="active">
+        <div class="sidebar-wrapper active">
+            <div class="sidebar-header">
+                <div class="d-flex justify-content-between">
+                    <div class="logo">
+                        <a href="/login"><img src="#" alt="ООО Парус" srcset=""></a>
+                    </div>
+                    <div class="toggler">
+                        <a href="#" class="sidebar-hide d-xl-none d-block"><i class="bi bi-x bi-middle"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="sidebar-menu">
+                <ul class="menu">
+                    <li class="sidebar-title"><b>Меню</b></li>
+
+                    <li
+                            class="sidebar-item  ">
+                        <a href="/cabinet" class='sidebar-link'>
+                            <i class="bi bi-grid-fill"></i>
+                            <span>Информационный блок</span>
+                        </a>
+                    </li>
+
+                    <li
+                            class="sidebar-item  active">
+                        <a href="/cabinetnotify" class='sidebar-link'>
+                            <i class="bi bi-stack"></i>
+                            <span>Настройка уведомлений</span>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+            <button class="sidebar-toggler btn x"><i data-feather="x"></i></button>
+        </div>
+    </div>
+    <div id="main">
+        <header class="mb-3">
+            <a href="#" class="burger-btn d-block d-xl-none">
+                <i class="bi bi-justify fs-3"></i>
+            </a>
+        </header>
+
+        <div class="page-heading">
+            <div class="page-title">
+                <div class="row">
+                    <div class="col-12 col-md-6 order-md-1 order-last">
+                        <h3>Личный кабинет</h3>
+                    </div>
+                    <div class="col-12 col-md-6 order-md-2 order-first">
+                        <nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item active" aria-current="page">Личный кабинет</li>
+                                <li class="breadcrumb-item"><a href="/login">Выйти</a></li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <section class="section">
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <div class="card">
+                            <div class="card-header">
+                                <h5 class="card-title">Настройка оповещений о результатах сданного теста на ковид</h5>
+                            </div>
+                            <div class="card-content">
+                                <div class="card-body" style="padding:0;">
+                                    <div class="card-text"><b>Статус последнего сданного теста на ковид</b>
+                                    </div>
+                                    <div class="card-text">
+                                        <button type="button" class="btn btn-success">
+                                            Положительный <span class="badge bg-transparent">+</span>
+                                        </button>
+                                    </div>
+                                    <table class="table table-striped mb-0" style="text-align:center; vertical-align: middle;">
+                                        <thead>
+                                        <tr>
+                                            <th>          </th>
+                                            <th>не уведомлять (по умолчанию)</th>
+                                            <th>e-mail</th>
+                                            <th>SMS</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        <tr>
+                                            <td class="text-bold-500">Уведомлять о сданном тесте</td>
+                                            <td class="text-bold-500">
+                                                <input class="form-check-input me-2" name="rowcol11" type="checkbox" value="true" id="flexCheckDefault"></td>
+                                            <td>
+                                                <input class="form-check-input me-2" name="rowcol12" type="checkbox" value="true" id="flexCheckDefault"></td>
+                                            <td class="text-bold-500">
+                                                <input class="form-check-input me-2" name="rowcol13" type="checkbox" value="true" id="flexCheckDefault">
+                                            </td>
+                                            <td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-bold-500">Уведомлять о результате теста</td>
+                                            <td class="text-bold-500">
+                                                <input class="form-check-input me-2" name="rowcol21" type="checkbox" value="true" id="flexCheckDefault"></td>
+                                            <td>
+                                                <input class="form-check-input me-2" name="rowcol22" type="checkbox" value="true" id="flexCheckDefault"></td>
+                                            <td class="text-bold-500">
+                                                <input class="form-check-input me-2" name="rowcol23" type="checkbox" value="true" id="flexCheckDefault">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-bold-500">Напоминать о необходимости пройти тестирование</td>
+                                            <td class="text-bold-500">
+                                                <input class="form-check-input me-2" name="rowcol31" type="checkbox" value="true" id="flexCheckDefault">
+                                            </td>
+                                            <td>
+                                                <input class="form-check-input me-2" name="rowcol32" type="checkbox" value="true" id="flexCheckDefault">
+                                            </td>
+                                            <td class="text-bold-500">
+                                                <input class="form-check-input me-2" name="rowcol33" type="checkbox" value="true" id="flexCheckDefault">
+                                            </td>
+
+                                        </tr>
+                                        </tbody>
+
+                                    </table>
+                                    <button type="submit" id="disableall" class="btn btn-primary btn-block btn-lg shadow-lg">Отключить все уведомления</button>
+                                    <button type="submit" id="disableall" class="btn btn-primary btn-block btn-lg shadow-lg mt-2">Редактировать</button>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <footer>
+            <div class="footer clearfix mb-0 mt-10 text-muted">
+                <div class="float-start">
+                    <p>2022 ООО "Парус"</p>
+                </div>
+                <div class="float-end">
+                    <p>Чтото еще  <span class="text-danger"></span>
+                        <a href="#">Чтото еще</a></p>
+                </div>
+            </div>
+        </footer>
+    </div>
+</div>
+<script src="assets/vendors/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+<script src="assets/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/mazer.js"></script>
+<script src="assets/vendors/toastify/toastify.js"></script>
+<script src="assets/js/jquery.js"></script>
+<script>
+
+</script>
+<script>
+</script>
+</body>
+
+</html>
+

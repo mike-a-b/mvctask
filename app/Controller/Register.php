@@ -9,7 +9,7 @@ class Register extends AbstractController
     public function index()
     {
         if ($this->getUser()) {
-            $this->redirect('/i.phtml');
+            $this->redirect('/cabinet.phtml');
         }
         return $this->view->render(
             'auth-register.phtml',
@@ -21,21 +21,22 @@ class Register extends AbstractController
 
     public function auth()
     {
-        $email = (string) $_POST['email'];
-        $password = (string) $_POST['password'];
-
-        $user = User::getByEmail($email);
-        if (!$user) {
-            return 'Неверный логин и пароль';
-        }
-
-        if ($user->getPassword() !== User::getPasswordHash($password)) {
-            return 'Неверный логин и пароль';
-        }
-
-        $this->session->authUser($user->getId());
-
-        $this->redirect('/blog');
+        $this->redirect('/cabinet');
+//        $email = (string) $_POST['email'];
+//        $password = (string) $_POST['password'];
+//
+//        $user = User::getByEmail($email);
+//        if (!$user) {
+//            return 'Неверный логин и пароль';
+//        }
+//
+//        if ($user->getPassword() !== User::getPasswordHash($password)) {
+//            return 'Неверный логин и пароль';
+//        }
+//
+//        $this->session->authUser($user->getId());
+//
+//        $this->redirect('/blog');
     }
 
     public function check()
